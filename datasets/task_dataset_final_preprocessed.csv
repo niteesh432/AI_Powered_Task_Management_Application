@@ -1,0 +1,1509 @@
+TaskID,Task_Description,Keywords,Due_Days,Priority_Score
+1,Study Deep Learning 30min,"Deep Learning, Study",0,9
+2,Study Machine Learning 30min,"Machine Learning, Study",0,8
+3,Study Java Course ,"Java, Study",0,7
+4,Study DSA 90min ,"DSA, Study",0,10
+5,Solve one leetcode problem,"Leetcode, Problem Solving",0,7
+6,Continue To do list project,"To-do list, Project",0,6
+7,Write ANN Assignment,"ANN, Assignment",3,8
+8,Create a dataset for the training ,"Dataset, Training",3,8
+9,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+10,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+11,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+12,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+13,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+14,Draft an email to the client,"Email, Client, Work",1,5
+15,Prepare a weekly progress report,"Progress Report, Work",2,7
+16,Attend the project status meeting,"Meeting, Project, Work",3,6
+17,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+18,Update the task management system,"Task Management, Updates, Work",4,5
+19,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+20,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+21,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+22,Pay utility bills,"Bills, Utilities, Household",1,3
+23,Water the plants,"Gardening, Plants, Household",4,2
+24,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+25,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+26,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+27,Consult a dietitian,"Dietitian, Health, Advice",1,4
+28,Track daily water intake,"Hydration, Health, Tracking",4,2
+29,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+30,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+31,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+32,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+33,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+34,Write in a journal,"Journaling, Writing, Personal",4,3
+35,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+36,Call a family member,"Family, Personal, Communication",3,2
+37,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+38,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+39,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+40,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+41,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+42,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+43,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+44,Draft an email to the client,"Email, Client, Work",1,5
+45,Prepare a weekly progress report,"Progress Report, Work",2,7
+46,Attend the project status meeting,"Meeting, Project, Work",3,6
+47,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+48,Update the task management system,"Task Management, Updates, Work",4,5
+49,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+50,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+51,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+52,Pay utility bills,"Bills, Utilities, Household",1,3
+53,Water the plants,"Gardening, Plants, Household",4,2
+54,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+55,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+56,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+57,Consult a dietitian,"Dietitian, Health, Advice",1,4
+58,Track daily water intake,"Hydration, Health, Tracking",4,2
+59,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+60,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+61,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+62,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+63,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+64,Write in a journal,"Journaling, Writing, Personal",4,3
+65,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+66,Call a family member,"Family, Personal, Communication",3,2
+67,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+68,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+69,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+70,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+71,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+72,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+73,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+74,Draft an email to the client,"Email, Client, Work",1,5
+75,Prepare a weekly progress report,"Progress Report, Work",2,7
+76,Attend the project status meeting,"Meeting, Project, Work",3,6
+77,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+78,Update the task management system,"Task Management, Updates, Work",4,5
+79,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+80,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+81,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+82,Pay utility bills,"Bills, Utilities, Household",1,3
+83,Water the plants,"Gardening, Plants, Household",4,2
+84,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+85,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+86,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+87,Consult a dietitian,"Dietitian, Health, Advice",1,4
+88,Track daily water intake,"Hydration, Health, Tracking",4,2
+89,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+90,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+91,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+92,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+93,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+94,Write in a journal,"Journaling, Writing, Personal",4,3
+95,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+96,Call a family member,"Family, Personal, Communication",3,2
+97,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+98,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+99,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+100,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+101,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+102,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+103,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+104,Draft an email to the client,"Email, Client, Work",1,5
+105,Prepare a weekly progress report,"Progress Report, Work",2,7
+106,Attend the project status meeting,"Meeting, Project, Work",3,6
+107,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+108,Update the task management system,"Task Management, Updates, Work",4,5
+109,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+110,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+111,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+112,Pay utility bills,"Bills, Utilities, Household",1,3
+113,Water the plants,"Gardening, Plants, Household",4,2
+114,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+115,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+116,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+117,Consult a dietitian,"Dietitian, Health, Advice",1,4
+118,Track daily water intake,"Hydration, Health, Tracking",4,2
+119,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+120,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+121,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+122,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+123,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+124,Write in a journal,"Journaling, Writing, Personal",4,3
+125,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+126,Call a family member,"Family, Personal, Communication",3,2
+127,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+128,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+129,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+130,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+131,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+132,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+133,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+134,Draft an email to the client,"Email, Client, Work",1,5
+135,Prepare a weekly progress report,"Progress Report, Work",2,7
+136,Attend the project status meeting,"Meeting, Project, Work",3,6
+137,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+138,Update the task management system,"Task Management, Updates, Work",4,5
+139,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+140,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+141,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+142,Pay utility bills,"Bills, Utilities, Household",1,3
+143,Water the plants,"Gardening, Plants, Household",4,2
+144,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+145,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+146,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+147,Consult a dietitian,"Dietitian, Health, Advice",1,4
+148,Track daily water intake,"Hydration, Health, Tracking",4,2
+149,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+150,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+151,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+152,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+153,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+154,Write in a journal,"Journaling, Writing, Personal",4,3
+155,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+156,Call a family member,"Family, Personal, Communication",3,2
+157,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+158,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+159,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+160,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+161,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+162,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+163,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+164,Draft an email to the client,"Email, Client, Work",1,5
+165,Prepare a weekly progress report,"Progress Report, Work",2,7
+166,Attend the project status meeting,"Meeting, Project, Work",3,6
+167,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+168,Update the task management system,"Task Management, Updates, Work",4,5
+169,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+170,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+171,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+172,Pay utility bills,"Bills, Utilities, Household",1,3
+173,Water the plants,"Gardening, Plants, Household",4,2
+174,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+175,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+176,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+177,Consult a dietitian,"Dietitian, Health, Advice",1,4
+178,Track daily water intake,"Hydration, Health, Tracking",4,2
+179,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+180,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+181,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+182,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+183,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+184,Write in a journal,"Journaling, Writing, Personal",4,3
+185,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+186,Call a family member,"Family, Personal, Communication",3,2
+187,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+188,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+189,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+190,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+191,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+192,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+193,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+194,Draft an email to the client,"Email, Client, Work",1,5
+195,Prepare a weekly progress report,"Progress Report, Work",2,7
+196,Attend the project status meeting,"Meeting, Project, Work",3,6
+197,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+198,Update the task management system,"Task Management, Updates, Work",4,5
+199,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+200,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+201,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+202,Pay utility bills,"Bills, Utilities, Household",1,3
+203,Water the plants,"Gardening, Plants, Household",4,2
+204,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+205,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+206,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+207,Consult a dietitian,"Dietitian, Health, Advice",1,4
+208,Track daily water intake,"Hydration, Health, Tracking",4,2
+209,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+210,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+211,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+212,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+213,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+214,Write in a journal,"Journaling, Writing, Personal",4,3
+215,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+216,Call a family member,"Family, Personal, Communication",3,2
+217,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+218,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+219,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+220,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+221,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+222,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+223,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+224,Draft an email to the client,"Email, Client, Work",1,5
+225,Prepare a weekly progress report,"Progress Report, Work",2,7
+226,Attend the project status meeting,"Meeting, Project, Work",3,6
+227,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+228,Update the task management system,"Task Management, Updates, Work",4,5
+229,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+230,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+231,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+232,Pay utility bills,"Bills, Utilities, Household",1,3
+233,Water the plants,"Gardening, Plants, Household",4,2
+234,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+235,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+236,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+237,Consult a dietitian,"Dietitian, Health, Advice",1,4
+238,Track daily water intake,"Hydration, Health, Tracking",4,2
+239,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+240,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+241,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+242,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+243,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+244,Write in a journal,"Journaling, Writing, Personal",4,3
+245,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+246,Call a family member,"Family, Personal, Communication",3,2
+247,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+248,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+249,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+250,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+251,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+252,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+253,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+254,Draft an email to the client,"Email, Client, Work",1,5
+255,Prepare a weekly progress report,"Progress Report, Work",2,7
+256,Attend the project status meeting,"Meeting, Project, Work",3,6
+257,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+258,Update the task management system,"Task Management, Updates, Work",4,5
+259,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+260,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+261,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+262,Pay utility bills,"Bills, Utilities, Household",1,3
+263,Water the plants,"Gardening, Plants, Household",4,2
+264,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+265,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+266,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+267,Consult a dietitian,"Dietitian, Health, Advice",1,4
+268,Track daily water intake,"Hydration, Health, Tracking",4,2
+269,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+270,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+271,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+272,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+273,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+274,Write in a journal,"Journaling, Writing, Personal",4,3
+275,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+276,Call a family member,"Family, Personal, Communication",3,2
+277,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+278,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+279,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+280,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+281,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+282,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+283,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+284,Draft an email to the client,"Email, Client, Work",1,5
+285,Prepare a weekly progress report,"Progress Report, Work",2,7
+286,Attend the project status meeting,"Meeting, Project, Work",3,6
+287,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+288,Update the task management system,"Task Management, Updates, Work",4,5
+289,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+290,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+291,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+292,Pay utility bills,"Bills, Utilities, Household",1,3
+293,Water the plants,"Gardening, Plants, Household",4,2
+294,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+295,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+296,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+297,Consult a dietitian,"Dietitian, Health, Advice",1,4
+298,Track daily water intake,"Hydration, Health, Tracking",4,2
+299,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+300,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+301,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+302,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+303,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+304,Write in a journal,"Journaling, Writing, Personal",4,3
+305,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+306,Call a family member,"Family, Personal, Communication",3,2
+307,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+308,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+309,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+310,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+311,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+312,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+313,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+314,Draft an email to the client,"Email, Client, Work",1,5
+315,Prepare a weekly progress report,"Progress Report, Work",2,7
+316,Attend the project status meeting,"Meeting, Project, Work",3,6
+317,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+318,Update the task management system,"Task Management, Updates, Work",4,5
+319,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+320,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+321,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+322,Pay utility bills,"Bills, Utilities, Household",1,3
+323,Water the plants,"Gardening, Plants, Household",4,2
+324,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+325,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+326,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+327,Consult a dietitian,"Dietitian, Health, Advice",1,4
+328,Track daily water intake,"Hydration, Health, Tracking",4,2
+329,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+330,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+331,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+332,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+333,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+334,Write in a journal,"Journaling, Writing, Personal",4,3
+335,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+336,Call a family member,"Family, Personal, Communication",3,2
+337,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+338,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+339,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+340,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+341,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+342,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+343,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+344,Draft an email to the client,"Email, Client, Work",1,5
+345,Prepare a weekly progress report,"Progress Report, Work",2,7
+346,Attend the project status meeting,"Meeting, Project, Work",3,6
+347,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+348,Update the task management system,"Task Management, Updates, Work",4,5
+349,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+350,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+351,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+352,Pay utility bills,"Bills, Utilities, Household",1,3
+353,Water the plants,"Gardening, Plants, Household",4,2
+354,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+355,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+356,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+357,Consult a dietitian,"Dietitian, Health, Advice",1,4
+358,Track daily water intake,"Hydration, Health, Tracking",4,2
+359,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+360,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+361,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+362,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+363,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+364,Write in a journal,"Journaling, Writing, Personal",4,3
+365,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+366,Call a family member,"Family, Personal, Communication",3,2
+367,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+368,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+369,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+370,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+371,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+372,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+373,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+374,Draft an email to the client,"Email, Client, Work",1,5
+375,Prepare a weekly progress report,"Progress Report, Work",2,7
+376,Attend the project status meeting,"Meeting, Project, Work",3,6
+377,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+378,Update the task management system,"Task Management, Updates, Work",4,5
+379,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+380,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+381,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+382,Pay utility bills,"Bills, Utilities, Household",1,3
+383,Water the plants,"Gardening, Plants, Household",4,2
+384,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+385,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+386,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+387,Consult a dietitian,"Dietitian, Health, Advice",1,4
+388,Track daily water intake,"Hydration, Health, Tracking",4,2
+389,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+390,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+391,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+392,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+393,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+394,Write in a journal,"Journaling, Writing, Personal",4,3
+395,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+396,Call a family member,"Family, Personal, Communication",3,2
+397,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+398,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+399,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+400,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+401,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+402,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+403,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+404,Draft an email to the client,"Email, Client, Work",1,5
+405,Prepare a weekly progress report,"Progress Report, Work",2,7
+406,Attend the project status meeting,"Meeting, Project, Work",3,6
+407,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+408,Update the task management system,"Task Management, Updates, Work",4,5
+409,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+410,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+411,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+412,Pay utility bills,"Bills, Utilities, Household",1,3
+413,Water the plants,"Gardening, Plants, Household",4,2
+414,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+415,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+416,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+417,Consult a dietitian,"Dietitian, Health, Advice",1,4
+418,Track daily water intake,"Hydration, Health, Tracking",4,2
+419,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+420,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+421,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+422,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+423,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+424,Write in a journal,"Journaling, Writing, Personal",4,3
+425,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+426,Call a family member,"Family, Personal, Communication",3,2
+427,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+428,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+429,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+430,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+431,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+432,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+433,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+434,Draft an email to the client,"Email, Client, Work",1,5
+435,Prepare a weekly progress report,"Progress Report, Work",2,7
+436,Attend the project status meeting,"Meeting, Project, Work",3,6
+437,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+438,Update the task management system,"Task Management, Updates, Work",4,5
+439,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+440,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+441,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+442,Pay utility bills,"Bills, Utilities, Household",1,3
+443,Water the plants,"Gardening, Plants, Household",4,2
+444,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+445,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+446,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+447,Consult a dietitian,"Dietitian, Health, Advice",1,4
+448,Track daily water intake,"Hydration, Health, Tracking",4,2
+449,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+450,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+451,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+452,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+453,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+454,Write in a journal,"Journaling, Writing, Personal",4,3
+455,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+456,Call a family member,"Family, Personal, Communication",3,2
+457,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+458,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+459,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+460,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+461,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+462,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+463,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+464,Draft an email to the client,"Email, Client, Work",1,5
+465,Prepare a weekly progress report,"Progress Report, Work",2,7
+466,Attend the project status meeting,"Meeting, Project, Work",3,6
+467,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+468,Update the task management system,"Task Management, Updates, Work",4,5
+469,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+470,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+471,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+472,Pay utility bills,"Bills, Utilities, Household",1,3
+473,Water the plants,"Gardening, Plants, Household",4,2
+474,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+475,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+476,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+477,Consult a dietitian,"Dietitian, Health, Advice",1,4
+478,Track daily water intake,"Hydration, Health, Tracking",4,2
+479,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+480,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+481,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+482,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+483,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+484,Write in a journal,"Journaling, Writing, Personal",4,3
+485,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+486,Call a family member,"Family, Personal, Communication",3,2
+487,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+488,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+489,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+490,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+491,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+492,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+493,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+494,Draft an email to the client,"Email, Client, Work",1,5
+495,Prepare a weekly progress report,"Progress Report, Work",2,7
+496,Attend the project status meeting,"Meeting, Project, Work",3,6
+497,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+498,Update the task management system,"Task Management, Updates, Work",4,5
+499,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+500,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+501,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+502,Pay utility bills,"Bills, Utilities, Household",1,3
+503,Water the plants,"Gardening, Plants, Household",4,2
+504,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+505,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+506,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+507,Consult a dietitian,"Dietitian, Health, Advice",1,4
+508,Track daily water intake,"Hydration, Health, Tracking",4,2
+509,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+510,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+511,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+512,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+513,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+514,Write in a journal,"Journaling, Writing, Personal",4,3
+515,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+516,Call a family member,"Family, Personal, Communication",3,2
+517,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+518,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+519,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+520,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+521,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+522,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+523,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+524,Draft an email to the client,"Email, Client, Work",1,5
+525,Prepare a weekly progress report,"Progress Report, Work",2,7
+526,Attend the project status meeting,"Meeting, Project, Work",3,6
+527,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+528,Update the task management system,"Task Management, Updates, Work",4,5
+529,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+530,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+531,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+532,Pay utility bills,"Bills, Utilities, Household",1,3
+533,Water the plants,"Gardening, Plants, Household",4,2
+534,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+535,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+536,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+537,Consult a dietitian,"Dietitian, Health, Advice",1,4
+538,Track daily water intake,"Hydration, Health, Tracking",4,2
+539,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+540,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+541,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+542,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+543,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+544,Write in a journal,"Journaling, Writing, Personal",4,3
+545,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+546,Call a family member,"Family, Personal, Communication",3,2
+547,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+548,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+549,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+550,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+551,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+552,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+553,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+554,Draft an email to the client,"Email, Client, Work",1,5
+555,Prepare a weekly progress report,"Progress Report, Work",2,7
+556,Attend the project status meeting,"Meeting, Project, Work",3,6
+557,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+558,Update the task management system,"Task Management, Updates, Work",4,5
+559,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+560,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+561,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+562,Pay utility bills,"Bills, Utilities, Household",1,3
+563,Water the plants,"Gardening, Plants, Household",4,2
+564,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+565,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+566,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+567,Consult a dietitian,"Dietitian, Health, Advice",1,4
+568,Track daily water intake,"Hydration, Health, Tracking",4,2
+569,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+570,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+571,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+572,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+573,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+574,Write in a journal,"Journaling, Writing, Personal",4,3
+575,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+576,Call a family member,"Family, Personal, Communication",3,2
+577,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+578,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+579,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+580,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+581,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+582,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+583,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+584,Draft an email to the client,"Email, Client, Work",1,5
+585,Prepare a weekly progress report,"Progress Report, Work",2,7
+586,Attend the project status meeting,"Meeting, Project, Work",3,6
+587,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+588,Update the task management system,"Task Management, Updates, Work",4,5
+589,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+590,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+591,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+592,Pay utility bills,"Bills, Utilities, Household",1,3
+593,Water the plants,"Gardening, Plants, Household",4,2
+594,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+595,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+596,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+597,Consult a dietitian,"Dietitian, Health, Advice",1,4
+598,Track daily water intake,"Hydration, Health, Tracking",4,2
+599,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+600,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+601,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+602,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+603,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+604,Write in a journal,"Journaling, Writing, Personal",4,3
+605,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+606,Call a family member,"Family, Personal, Communication",3,2
+607,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+608,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+609,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+610,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+611,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+612,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+613,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+614,Draft an email to the client,"Email, Client, Work",1,5
+615,Prepare a weekly progress report,"Progress Report, Work",2,7
+616,Attend the project status meeting,"Meeting, Project, Work",3,6
+617,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+618,Update the task management system,"Task Management, Updates, Work",4,5
+619,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+620,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+621,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+622,Pay utility bills,"Bills, Utilities, Household",1,3
+623,Water the plants,"Gardening, Plants, Household",4,2
+624,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+625,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+626,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+627,Consult a dietitian,"Dietitian, Health, Advice",1,4
+628,Track daily water intake,"Hydration, Health, Tracking",4,2
+629,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+630,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+631,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+632,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+633,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+634,Write in a journal,"Journaling, Writing, Personal",4,3
+635,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+636,Call a family member,"Family, Personal, Communication",3,2
+637,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+638,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+639,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+640,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+641,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+642,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+643,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+644,Draft an email to the client,"Email, Client, Work",1,5
+645,Prepare a weekly progress report,"Progress Report, Work",2,7
+646,Attend the project status meeting,"Meeting, Project, Work",3,6
+647,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+648,Update the task management system,"Task Management, Updates, Work",4,5
+649,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+650,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+651,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+652,Pay utility bills,"Bills, Utilities, Household",1,3
+653,Water the plants,"Gardening, Plants, Household",4,2
+654,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+655,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+656,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+657,Consult a dietitian,"Dietitian, Health, Advice",1,4
+658,Track daily water intake,"Hydration, Health, Tracking",4,2
+659,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+660,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+661,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+662,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+663,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+664,Write in a journal,"Journaling, Writing, Personal",4,3
+665,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+666,Call a family member,"Family, Personal, Communication",3,2
+667,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+668,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+669,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+670,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+671,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+672,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+673,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+674,Draft an email to the client,"Email, Client, Work",1,5
+675,Prepare a weekly progress report,"Progress Report, Work",2,7
+676,Attend the project status meeting,"Meeting, Project, Work",3,6
+677,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+678,Update the task management system,"Task Management, Updates, Work",4,5
+679,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+680,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+681,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+682,Pay utility bills,"Bills, Utilities, Household",1,3
+683,Water the plants,"Gardening, Plants, Household",4,2
+684,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+685,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+686,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+687,Consult a dietitian,"Dietitian, Health, Advice",1,4
+688,Track daily water intake,"Hydration, Health, Tracking",4,2
+689,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+690,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+691,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+692,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+693,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+694,Write in a journal,"Journaling, Writing, Personal",4,3
+695,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+696,Call a family member,"Family, Personal, Communication",3,2
+697,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+698,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+699,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+700,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+701,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+702,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+703,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+704,Draft an email to the client,"Email, Client, Work",1,5
+705,Prepare a weekly progress report,"Progress Report, Work",2,7
+706,Attend the project status meeting,"Meeting, Project, Work",3,6
+707,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+708,Update the task management system,"Task Management, Updates, Work",4,5
+709,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+710,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+711,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+712,Pay utility bills,"Bills, Utilities, Household",1,3
+713,Water the plants,"Gardening, Plants, Household",4,2
+714,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+715,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+716,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+717,Consult a dietitian,"Dietitian, Health, Advice",1,4
+718,Track daily water intake,"Hydration, Health, Tracking",4,2
+719,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+720,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+721,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+722,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+723,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+724,Write in a journal,"Journaling, Writing, Personal",4,3
+725,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+726,Call a family member,"Family, Personal, Communication",3,2
+727,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+728,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+729,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+730,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+731,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+732,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+733,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+734,Draft an email to the client,"Email, Client, Work",1,5
+735,Prepare a weekly progress report,"Progress Report, Work",2,7
+736,Attend the project status meeting,"Meeting, Project, Work",3,6
+737,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+738,Update the task management system,"Task Management, Updates, Work",4,5
+739,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+740,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+741,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+742,Pay utility bills,"Bills, Utilities, Household",1,3
+743,Water the plants,"Gardening, Plants, Household",4,2
+744,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+745,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+746,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+747,Consult a dietitian,"Dietitian, Health, Advice",1,4
+748,Track daily water intake,"Hydration, Health, Tracking",4,2
+749,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+750,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+751,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+752,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+753,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+754,Write in a journal,"Journaling, Writing, Personal",4,3
+755,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+756,Call a family member,"Family, Personal, Communication",3,2
+757,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+758,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+759,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+760,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+761,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+762,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+763,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+764,Draft an email to the client,"Email, Client, Work",1,5
+765,Prepare a weekly progress report,"Progress Report, Work",2,7
+766,Attend the project status meeting,"Meeting, Project, Work",3,6
+767,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+768,Update the task management system,"Task Management, Updates, Work",4,5
+769,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+770,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+771,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+772,Pay utility bills,"Bills, Utilities, Household",1,3
+773,Water the plants,"Gardening, Plants, Household",4,2
+774,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+775,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+776,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+777,Consult a dietitian,"Dietitian, Health, Advice",1,4
+778,Track daily water intake,"Hydration, Health, Tracking",4,2
+779,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+780,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+781,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+782,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+783,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+784,Write in a journal,"Journaling, Writing, Personal",4,3
+785,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+786,Call a family member,"Family, Personal, Communication",3,2
+787,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+788,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+789,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+790,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+791,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+792,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+793,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+794,Draft an email to the client,"Email, Client, Work",1,5
+795,Prepare a weekly progress report,"Progress Report, Work",2,7
+796,Attend the project status meeting,"Meeting, Project, Work",3,6
+797,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+798,Update the task management system,"Task Management, Updates, Work",4,5
+799,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+800,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+801,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+802,Pay utility bills,"Bills, Utilities, Household",1,3
+803,Water the plants,"Gardening, Plants, Household",4,2
+804,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+805,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+806,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+807,Consult a dietitian,"Dietitian, Health, Advice",1,4
+808,Track daily water intake,"Hydration, Health, Tracking",4,2
+809,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+810,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+811,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+812,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+813,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+814,Write in a journal,"Journaling, Writing, Personal",4,3
+815,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+816,Call a family member,"Family, Personal, Communication",3,2
+817,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+818,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+819,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+820,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+821,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+822,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+823,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+824,Draft an email to the client,"Email, Client, Work",1,5
+825,Prepare a weekly progress report,"Progress Report, Work",2,7
+826,Attend the project status meeting,"Meeting, Project, Work",3,6
+827,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+828,Update the task management system,"Task Management, Updates, Work",4,5
+829,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+830,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+831,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+832,Pay utility bills,"Bills, Utilities, Household",1,3
+833,Water the plants,"Gardening, Plants, Household",4,2
+834,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+835,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+836,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+837,Consult a dietitian,"Dietitian, Health, Advice",1,4
+838,Track daily water intake,"Hydration, Health, Tracking",4,2
+839,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+840,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+841,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+842,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+843,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+844,Write in a journal,"Journaling, Writing, Personal",4,3
+845,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+846,Call a family member,"Family, Personal, Communication",3,2
+847,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+848,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+849,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+850,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+851,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+852,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+853,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+854,Draft an email to the client,"Email, Client, Work",1,5
+855,Prepare a weekly progress report,"Progress Report, Work",2,7
+856,Attend the project status meeting,"Meeting, Project, Work",3,6
+857,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+858,Update the task management system,"Task Management, Updates, Work",4,5
+859,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+860,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+861,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+862,Pay utility bills,"Bills, Utilities, Household",1,3
+863,Water the plants,"Gardening, Plants, Household",4,2
+864,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+865,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+866,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+867,Consult a dietitian,"Dietitian, Health, Advice",1,4
+868,Track daily water intake,"Hydration, Health, Tracking",4,2
+869,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+870,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+871,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+872,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+873,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+874,Write in a journal,"Journaling, Writing, Personal",4,3
+875,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+876,Call a family member,"Family, Personal, Communication",3,2
+877,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+878,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+879,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+880,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+881,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+882,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+883,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+884,Draft an email to the client,"Email, Client, Work",1,5
+885,Prepare a weekly progress report,"Progress Report, Work",2,7
+886,Attend the project status meeting,"Meeting, Project, Work",3,6
+887,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+888,Update the task management system,"Task Management, Updates, Work",4,5
+889,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+890,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+891,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+892,Pay utility bills,"Bills, Utilities, Household",1,3
+893,Water the plants,"Gardening, Plants, Household",4,2
+894,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+895,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+896,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+897,Consult a dietitian,"Dietitian, Health, Advice",1,4
+898,Track daily water intake,"Hydration, Health, Tracking",4,2
+899,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+900,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+901,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+902,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+903,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+904,Write in a journal,"Journaling, Writing, Personal",4,3
+905,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+906,Call a family member,"Family, Personal, Communication",3,2
+907,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+908,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+909,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+910,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+911,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+912,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+913,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+914,Draft an email to the client,"Email, Client, Work",1,5
+915,Prepare a weekly progress report,"Progress Report, Work",2,7
+916,Attend the project status meeting,"Meeting, Project, Work",3,6
+917,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+918,Update the task management system,"Task Management, Updates, Work",4,5
+919,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+920,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+921,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+922,Pay utility bills,"Bills, Utilities, Household",1,3
+923,Water the plants,"Gardening, Plants, Household",4,2
+924,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+925,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+926,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+927,Consult a dietitian,"Dietitian, Health, Advice",1,4
+928,Track daily water intake,"Hydration, Health, Tracking",4,2
+929,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+930,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+931,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+932,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+933,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+934,Write in a journal,"Journaling, Writing, Personal",4,3
+935,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+936,Call a family member,"Family, Personal, Communication",3,2
+937,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+938,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+939,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+940,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+941,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+942,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+943,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+944,Draft an email to the client,"Email, Client, Work",1,5
+945,Prepare a weekly progress report,"Progress Report, Work",2,7
+946,Attend the project status meeting,"Meeting, Project, Work",3,6
+947,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+948,Update the task management system,"Task Management, Updates, Work",4,5
+949,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+950,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+951,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+952,Pay utility bills,"Bills, Utilities, Household",1,3
+953,Water the plants,"Gardening, Plants, Household",4,2
+954,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+955,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+956,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+957,Consult a dietitian,"Dietitian, Health, Advice",1,4
+958,Track daily water intake,"Hydration, Health, Tracking",4,2
+959,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+960,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+961,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+962,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+963,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+964,Write in a journal,"Journaling, Writing, Personal",4,3
+965,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+966,Call a family member,"Family, Personal, Communication",3,2
+967,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+968,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+969,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+970,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+971,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+972,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+973,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+974,Draft an email to the client,"Email, Client, Work",1,5
+975,Prepare a weekly progress report,"Progress Report, Work",2,7
+976,Attend the project status meeting,"Meeting, Project, Work",3,6
+977,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+978,Update the task management system,"Task Management, Updates, Work",4,5
+979,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+980,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+981,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+982,Pay utility bills,"Bills, Utilities, Household",1,3
+983,Water the plants,"Gardening, Plants, Household",4,2
+984,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+985,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+986,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+987,Consult a dietitian,"Dietitian, Health, Advice",1,4
+988,Track daily water intake,"Hydration, Health, Tracking",4,2
+989,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+990,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+991,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+992,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+993,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+994,Write in a journal,"Journaling, Writing, Personal",4,3
+995,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+996,Call a family member,"Family, Personal, Communication",3,2
+997,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+998,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+999,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1000,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1001,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1002,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1003,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1004,Draft an email to the client,"Email, Client, Work",1,5
+1005,Prepare a weekly progress report,"Progress Report, Work",2,7
+1006,Attend the project status meeting,"Meeting, Project, Work",3,6
+1007,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1008,Update the task management system,"Task Management, Updates, Work",4,5
+1009,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1010,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1011,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1012,Pay utility bills,"Bills, Utilities, Household",1,3
+1013,Water the plants,"Gardening, Plants, Household",4,2
+1014,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1015,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1016,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1017,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1018,Track daily water intake,"Hydration, Health, Tracking",4,2
+1019,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1020,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1021,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1022,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1023,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1024,Write in a journal,"Journaling, Writing, Personal",4,3
+1025,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1026,Call a family member,"Family, Personal, Communication",3,2
+1027,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1028,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1029,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1030,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1031,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1032,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1033,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1034,Draft an email to the client,"Email, Client, Work",1,5
+1035,Prepare a weekly progress report,"Progress Report, Work",2,7
+1036,Attend the project status meeting,"Meeting, Project, Work",3,6
+1037,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1038,Update the task management system,"Task Management, Updates, Work",4,5
+1039,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1040,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1041,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1042,Pay utility bills,"Bills, Utilities, Household",1,3
+1043,Water the plants,"Gardening, Plants, Household",4,2
+1044,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1045,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1046,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1047,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1048,Track daily water intake,"Hydration, Health, Tracking",4,2
+1049,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1050,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1051,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1052,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1053,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1054,Write in a journal,"Journaling, Writing, Personal",4,3
+1055,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1056,Call a family member,"Family, Personal, Communication",3,2
+1057,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1058,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1059,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1060,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1061,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1062,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1063,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1064,Draft an email to the client,"Email, Client, Work",1,5
+1065,Prepare a weekly progress report,"Progress Report, Work",2,7
+1066,Attend the project status meeting,"Meeting, Project, Work",3,6
+1067,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1068,Update the task management system,"Task Management, Updates, Work",4,5
+1069,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1070,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1071,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1072,Pay utility bills,"Bills, Utilities, Household",1,3
+1073,Water the plants,"Gardening, Plants, Household",4,2
+1074,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1075,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1076,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1077,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1078,Track daily water intake,"Hydration, Health, Tracking",4,2
+1079,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1080,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1081,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1082,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1083,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1084,Write in a journal,"Journaling, Writing, Personal",4,3
+1085,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1086,Call a family member,"Family, Personal, Communication",3,2
+1087,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1088,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1089,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1090,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1091,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1092,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1093,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1094,Draft an email to the client,"Email, Client, Work",1,5
+1095,Prepare a weekly progress report,"Progress Report, Work",2,7
+1096,Attend the project status meeting,"Meeting, Project, Work",3,6
+1097,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1098,Update the task management system,"Task Management, Updates, Work",4,5
+1099,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1100,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1101,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1102,Pay utility bills,"Bills, Utilities, Household",1,3
+1103,Water the plants,"Gardening, Plants, Household",4,2
+1104,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1105,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1106,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1107,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1108,Track daily water intake,"Hydration, Health, Tracking",4,2
+1109,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1110,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1111,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1112,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1113,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1114,Write in a journal,"Journaling, Writing, Personal",4,3
+1115,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1116,Call a family member,"Family, Personal, Communication",3,2
+1117,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1118,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1119,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1120,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1121,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1122,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1123,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1124,Draft an email to the client,"Email, Client, Work",1,5
+1125,Prepare a weekly progress report,"Progress Report, Work",2,7
+1126,Attend the project status meeting,"Meeting, Project, Work",3,6
+1127,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1128,Update the task management system,"Task Management, Updates, Work",4,5
+1129,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1130,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1131,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1132,Pay utility bills,"Bills, Utilities, Household",1,3
+1133,Water the plants,"Gardening, Plants, Household",4,2
+1134,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1135,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1136,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1137,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1138,Track daily water intake,"Hydration, Health, Tracking",4,2
+1139,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1140,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1141,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1142,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1143,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1144,Write in a journal,"Journaling, Writing, Personal",4,3
+1145,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1146,Call a family member,"Family, Personal, Communication",3,2
+1147,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1148,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1149,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1150,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1151,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1152,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1153,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1154,Draft an email to the client,"Email, Client, Work",1,5
+1155,Prepare a weekly progress report,"Progress Report, Work",2,7
+1156,Attend the project status meeting,"Meeting, Project, Work",3,6
+1157,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1158,Update the task management system,"Task Management, Updates, Work",4,5
+1159,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1160,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1161,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1162,Pay utility bills,"Bills, Utilities, Household",1,3
+1163,Water the plants,"Gardening, Plants, Household",4,2
+1164,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1165,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1166,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1167,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1168,Track daily water intake,"Hydration, Health, Tracking",4,2
+1169,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1170,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1171,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1172,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1173,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1174,Write in a journal,"Journaling, Writing, Personal",4,3
+1175,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1176,Call a family member,"Family, Personal, Communication",3,2
+1177,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1178,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1179,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1180,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1181,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1182,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1183,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1184,Draft an email to the client,"Email, Client, Work",1,5
+1185,Prepare a weekly progress report,"Progress Report, Work",2,7
+1186,Attend the project status meeting,"Meeting, Project, Work",3,6
+1187,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1188,Update the task management system,"Task Management, Updates, Work",4,5
+1189,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1190,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1191,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1192,Pay utility bills,"Bills, Utilities, Household",1,3
+1193,Water the plants,"Gardening, Plants, Household",4,2
+1194,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1195,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1196,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1197,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1198,Track daily water intake,"Hydration, Health, Tracking",4,2
+1199,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1200,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1201,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1202,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1203,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1204,Write in a journal,"Journaling, Writing, Personal",4,3
+1205,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1206,Call a family member,"Family, Personal, Communication",3,2
+1207,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1208,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1209,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1210,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1211,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1212,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1213,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1214,Draft an email to the client,"Email, Client, Work",1,5
+1215,Prepare a weekly progress report,"Progress Report, Work",2,7
+1216,Attend the project status meeting,"Meeting, Project, Work",3,6
+1217,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1218,Update the task management system,"Task Management, Updates, Work",4,5
+1219,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1220,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1221,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1222,Pay utility bills,"Bills, Utilities, Household",1,3
+1223,Water the plants,"Gardening, Plants, Household",4,2
+1224,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1225,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1226,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1227,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1228,Track daily water intake,"Hydration, Health, Tracking",4,2
+1229,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1230,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1231,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1232,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1233,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1234,Write in a journal,"Journaling, Writing, Personal",4,3
+1235,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1236,Call a family member,"Family, Personal, Communication",3,2
+1237,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1238,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1239,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1240,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1241,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1242,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1243,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1244,Draft an email to the client,"Email, Client, Work",1,5
+1245,Prepare a weekly progress report,"Progress Report, Work",2,7
+1246,Attend the project status meeting,"Meeting, Project, Work",3,6
+1247,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1248,Update the task management system,"Task Management, Updates, Work",4,5
+1249,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1250,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1251,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1252,Pay utility bills,"Bills, Utilities, Household",1,3
+1253,Water the plants,"Gardening, Plants, Household",4,2
+1254,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1255,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1256,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1257,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1258,Track daily water intake,"Hydration, Health, Tracking",4,2
+1259,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1260,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1261,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1262,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1263,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1264,Write in a journal,"Journaling, Writing, Personal",4,3
+1265,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1266,Call a family member,"Family, Personal, Communication",3,2
+1267,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1268,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1269,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1270,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1271,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1272,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1273,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1274,Draft an email to the client,"Email, Client, Work",1,5
+1275,Prepare a weekly progress report,"Progress Report, Work",2,7
+1276,Attend the project status meeting,"Meeting, Project, Work",3,6
+1277,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1278,Update the task management system,"Task Management, Updates, Work",4,5
+1279,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1280,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1281,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1282,Pay utility bills,"Bills, Utilities, Household",1,3
+1283,Water the plants,"Gardening, Plants, Household",4,2
+1284,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1285,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1286,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1287,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1288,Track daily water intake,"Hydration, Health, Tracking",4,2
+1289,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1290,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1291,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1292,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1293,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1294,Write in a journal,"Journaling, Writing, Personal",4,3
+1295,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1296,Call a family member,"Family, Personal, Communication",3,2
+1297,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1298,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1299,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1300,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1301,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1302,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1303,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1304,Draft an email to the client,"Email, Client, Work",1,5
+1305,Prepare a weekly progress report,"Progress Report, Work",2,7
+1306,Attend the project status meeting,"Meeting, Project, Work",3,6
+1307,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1308,Update the task management system,"Task Management, Updates, Work",4,5
+1309,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1310,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1311,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1312,Pay utility bills,"Bills, Utilities, Household",1,3
+1313,Water the plants,"Gardening, Plants, Household",4,2
+1314,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1315,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1316,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1317,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1318,Track daily water intake,"Hydration, Health, Tracking",4,2
+1319,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1320,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1321,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1322,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1323,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1324,Write in a journal,"Journaling, Writing, Personal",4,3
+1325,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1326,Call a family member,"Family, Personal, Communication",3,2
+1327,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1328,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1329,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1330,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1331,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1332,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1333,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1334,Draft an email to the client,"Email, Client, Work",1,5
+1335,Prepare a weekly progress report,"Progress Report, Work",2,7
+1336,Attend the project status meeting,"Meeting, Project, Work",3,6
+1337,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1338,Update the task management system,"Task Management, Updates, Work",4,5
+1339,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1340,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1341,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1342,Pay utility bills,"Bills, Utilities, Household",1,3
+1343,Water the plants,"Gardening, Plants, Household",4,2
+1344,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1345,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1346,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1347,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1348,Track daily water intake,"Hydration, Health, Tracking",4,2
+1349,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1350,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1351,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1352,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1353,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1354,Write in a journal,"Journaling, Writing, Personal",4,3
+1355,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1356,Call a family member,"Family, Personal, Communication",3,2
+1357,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1358,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1359,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1360,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1361,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1362,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1363,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1364,Draft an email to the client,"Email, Client, Work",1,5
+1365,Prepare a weekly progress report,"Progress Report, Work",2,7
+1366,Attend the project status meeting,"Meeting, Project, Work",3,6
+1367,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1368,Update the task management system,"Task Management, Updates, Work",4,5
+1369,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1370,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1371,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1372,Pay utility bills,"Bills, Utilities, Household",1,3
+1373,Water the plants,"Gardening, Plants, Household",4,2
+1374,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1375,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1376,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1377,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1378,Track daily water intake,"Hydration, Health, Tracking",4,2
+1379,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1380,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1381,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1382,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1383,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1384,Write in a journal,"Journaling, Writing, Personal",4,3
+1385,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1386,Call a family member,"Family, Personal, Communication",3,2
+1387,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1388,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1389,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1390,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1391,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1392,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1393,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1394,Draft an email to the client,"Email, Client, Work",1,5
+1395,Prepare a weekly progress report,"Progress Report, Work",2,7
+1396,Attend the project status meeting,"Meeting, Project, Work",3,6
+1397,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1398,Update the task management system,"Task Management, Updates, Work",4,5
+1399,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1400,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1401,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1402,Pay utility bills,"Bills, Utilities, Household",1,3
+1403,Water the plants,"Gardening, Plants, Household",4,2
+1404,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1405,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1406,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1407,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1408,Track daily water intake,"Hydration, Health, Tracking",4,2
+1409,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1410,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1411,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1412,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1413,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1414,Write in a journal,"Journaling, Writing, Personal",4,3
+1415,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1416,Call a family member,"Family, Personal, Communication",3,2
+1417,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1418,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1419,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1420,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1421,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1422,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1423,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1424,Draft an email to the client,"Email, Client, Work",1,5
+1425,Prepare a weekly progress report,"Progress Report, Work",2,7
+1426,Attend the project status meeting,"Meeting, Project, Work",3,6
+1427,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1428,Update the task management system,"Task Management, Updates, Work",4,5
+1429,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1430,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1431,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1432,Pay utility bills,"Bills, Utilities, Household",1,3
+1433,Water the plants,"Gardening, Plants, Household",4,2
+1434,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1435,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1436,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1437,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1438,Track daily water intake,"Hydration, Health, Tracking",4,2
+1439,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1440,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1441,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1442,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1443,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1444,Write in a journal,"Journaling, Writing, Personal",4,3
+1445,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1446,Call a family member,"Family, Personal, Communication",3,2
+1447,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1448,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1449,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1450,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1451,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1452,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1453,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1454,Draft an email to the client,"Email, Client, Work",1,5
+1455,Prepare a weekly progress report,"Progress Report, Work",2,7
+1456,Attend the project status meeting,"Meeting, Project, Work",3,6
+1457,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1458,Update the task management system,"Task Management, Updates, Work",4,5
+1459,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1460,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1461,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1462,Pay utility bills,"Bills, Utilities, Household",1,3
+1463,Water the plants,"Gardening, Plants, Household",4,2
+1464,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1465,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1466,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1467,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1468,Track daily water intake,"Hydration, Health, Tracking",4,2
+1469,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1470,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1471,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1472,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1473,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1474,Write in a journal,"Journaling, Writing, Personal",4,3
+1475,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1476,Call a family member,"Family, Personal, Communication",3,2
+1477,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1478,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
+1479,Read about machine learning algorithms,"Machine Learning, Algorithms, Study",2,7
+1480,Solve mathematics practice problems,"Mathematics, Practice, Study",1,6
+1481,Watch a video lecture on AI,"AI, Video Lecture, Study",3,8
+1482,Prepare notes on SQL joins,"SQL, Notes, Study",2,5
+1483,Revise JavaScript concepts for the quiz,"JavaScript, Revision, Study",1,6
+1484,Draft an email to the client,"Email, Client, Work",1,5
+1485,Prepare a weekly progress report,"Progress Report, Work",2,7
+1486,Attend the project status meeting,"Meeting, Project, Work",3,6
+1487,Design UI mockups for the dashboard,"UI Design, Mockups, Work",2,8
+1488,Update the task management system,"Task Management, Updates, Work",4,5
+1489,Organize the wardrobe,"Organizing, Wardrobe, Household",3,4
+1490,Fix the leaking faucet,"Fixing, Plumbing, Household",2,6
+1491,Dust and vacuum the living room,"Cleaning, Vacuuming, Household",2,5
+1492,Pay utility bills,"Bills, Utilities, Household",1,3
+1493,Water the plants,"Gardening, Plants, Household",4,2
+1494,Book a routine health checkup,"Health, Checkup, Appointment",1,4
+1495,Prepare a healthy meal plan for the week,"Meal Plan, Healthy Eating, Health",2,6
+1496,Meditate for 15 minutes,"Meditation, Relaxation, Health",3,2
+1497,Consult a dietitian,"Dietitian, Health, Advice",1,4
+1498,Track daily water intake,"Hydration, Health, Tracking",4,2
+1499,Do 20 minutes of HIIT workout,"HIIT, Workout, Exercises",2,6
+1500,Practice stretching exercises,"Stretching, Flexibility, Exercises",3,3
+1501,Join a Zumba class,"Zumba, Dance, Exercises",2,6
+1502,Perform weight training for arms,"Weight Training, Strength, Exercises",3,5
+1503,Go for a 10km cycling session,"Cycling, Endurance, Exercises",1,7
+1504,Write in a journal,"Journaling, Writing, Personal",4,3
+1505,Plan the budget for next month,"Budgeting, Planning, Personal",2,5
+1506,Call a family member,"Family, Personal, Communication",3,2
+1507,Organize digital photo albums,"Photos, Organizing, Personal",5,4
+1508,Set personal goals for the year,"Goal Setting, Planning, Personal",1,6
