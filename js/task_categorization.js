@@ -253,14 +253,16 @@ async function createCategorizationModel(inputShape) {
     return model;
   }
     /* trainCategorizationModel(); */
-    /* async function saveModel() {
+   async function saveCategorizationModel() {
       const model = await testCategorizationModel();
       await model.save('localstorage://my-categorization-model');
+      await model.save('downloads://my-categorization-model');
       console.log('Model saved successfully');
   }
-  saveModel(); */
+  /* saveCategorizationModel(); */
+
 async function loadCategorizationModel() {
-    const categorizationModel = await tf.loadLayersModel('localstorage://my-categorization-model');
+    const categorizationModel = await tf.loadLayersModel('./models/my-categorization-model.json');
     /* console.log('Model loaded successfully'); */
     return categorizationModel;
 }

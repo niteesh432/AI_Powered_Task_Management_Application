@@ -268,19 +268,23 @@ async function trainModel() {
 
   return model;
 }
-/* async function saveModel() {
-    const model = await trainModel();
+  
+async function loadModel() {
+  try {
+      const model = await tf.loadLayersModel('./models/my-model.json');
+      console.log('Model loaded successfully');
+      return model;
+  } catch (error) {
+      console.error('Error loading the model:', error);
+  }
+}
+async function saveModel() {
+    const model = await testModel();
     await model.save('localstorage://my-model');
+    await model.save('downloads://my-model');
     console.log('Model saved successfully');
 }
-saveModel(); */
-  
-//load the model
-async function loadModel() {
-    const model = await tf.loadLayersModel('localstorage://my-model');
-    /* console.log('Model loaded successfully'); */
-    return model;
-}
+/* saveModel(); */
 
 async function testModel() {
   const model = await trainModel();
