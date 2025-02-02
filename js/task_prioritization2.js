@@ -1,5 +1,5 @@
 async function loadPrioritizationCSV() {
-  const csvPath = "./datasets/task_dataset_final_preprocessed.csv";
+  const csvPath = "./datasets/task_management.csv";
 
   // Load the dataset
   const dataset = tf.data.csv(csvPath);
@@ -17,9 +17,10 @@ logDataset(); */
 // Improved text tokenization with punctuation removal and stemming placeholder
 function tokenizeText(text) {
   if (!text) return [];
+  const trimmedText = text.trim();
 
   // Remove punctuation and split into words
-  const tokens = text.toLowerCase().replace(/[.,!?]/g, '').split(/\s+/);
+  const tokens = trimmedText.toLowerCase().replace(/[.,!?]/g, ' ').split(/\s/);
 
   // Stemming or lemmatization could be added here
   return tokens;
@@ -211,10 +212,10 @@ async function createModelEnhanced(inputShape) {
 
   // Add dense layers with L2 regularization and batch normalization
   model.add(tf.layers.dense({
-    units: 128, 
+    units: 64, 
     activation: "relu", 
     inputShape: [inputShape],
-    kernelRegularizer: tf.regularizers.l2({ l2: 0.01 })
+    kernelRegularizer: tf.regularizers.l2({ l2: 0.02 })
   }));
   model.add(tf.layers.batchNormalization());
   model.add(tf.layers.dropout({ rate: 0.5 }));
@@ -222,23 +223,23 @@ async function createModelEnhanced(inputShape) {
   model.add(tf.layers.dense({
     units: 64, 
     activation: "relu",
-    kernelRegularizer: tf.regularizers.l2({ l2: 0.01 })
+    kernelRegularizer: tf.regularizers.l2({ l2: 0.02 })
   }));
   model.add(tf.layers.batchNormalization());
   model.add(tf.layers.dropout({ rate: 0.5 }));
 
-  model.add(tf.layers.dense({
+  /* model.add(tf.layers.dense({
     units: 32, 
     activation: "relu",
     kernelRegularizer: tf.regularizers.l2({ l2: 0.01 })
   }));
   model.add(tf.layers.batchNormalization());
-  model.add(tf.layers.dropout({ rate: 0.5 }));
+  model.add(tf.layers.dropout({ rate: 0.5 })); */
 
-  model.add(tf.layers.dense({ units: 10, activation: "softmax" }));
+  model.add(tf.layers.dense({ units: 5, activation: "softmax" }));
 
   model.compile({
-    optimizer: tf.train.adam(0.001),  // Adjusted learning rate
+    optimizer: tf.train.adam(0.002),  // Adjusted learning rate
     loss: "sparseCategoricalCrossentropy",
     metrics: ["accuracy"],
   });
@@ -254,7 +255,7 @@ async function trainModel() {
   const trainingOutputTensor = tf.tensor1d(trainingOutput);
 
   await model.fit(trainingInputTensor, trainingOutputTensor, {
-    epochs: 50,
+    epochs: 60,
     batchSize: 32,
     validationSplit: 0.2,
     callbacks: [
@@ -271,7 +272,7 @@ async function trainModel() {
   
 async function loadModel() {
   try {
-      const model = await tf.loadLayersModel('./models/my-model.json');
+      const model = await tf.loadLayersModel('./models/my-prioritization-model.json');
       console.log('Model loaded successfully');
       return model;
   } catch (error) {
@@ -281,7 +282,7 @@ async function loadModel() {
 async function saveModel() {
     const model = await testModel();
     await model.save('localstorage://my-model');
-    await model.save('downloads://my-model');
+    await model.save('downloads://my-prioritization-model');
     console.log('Model saved successfully');
 }
 /* saveModel(); */
@@ -442,7 +443,7 @@ async function displayTaskList() {
 
   // Sort the array based on priority
   tasksWithPriority.sort((a, b) => a.priority - b.priority);
-  /* console.log(tasksWithPriority); */
+  console.log(tasksWithPriority);
 
   // Clear the container before appending sorted tasks
   smartListContainer.innerHTML = '';
