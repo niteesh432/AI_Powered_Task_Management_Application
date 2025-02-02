@@ -575,7 +575,7 @@ function sendNotification(message) {
   
   if (Notification.permission === "granted") {
       new Notification(fullMessage, {
-          icon: "icon.png",
+          icon: "./images/icon.png",
       });
   } else if (Notification.permission !== "denied") {
       Notification.requestPermission().then(permission => {
