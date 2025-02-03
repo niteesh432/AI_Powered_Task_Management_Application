@@ -57,42 +57,22 @@ nav :is(a:hover, a:focus) {
     transition: all 0.5s ease;
     text-decoration: underline;
 }
-/* Ensure input field takes available space but doesn't stretch */
-.add-task-input {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    gap: 10px;
-    flex-wrap: nowrap; /* Prevents wrapping */
-}
-
-/* Input field should take most of the space */
-.add-task-input .form-floating {
-    flex-grow: 1; /* Makes the input field responsive */
-    min-width: 200px;
-}
-
-/* Button sizing */
-.input-group-text {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-/* Make sure buttons don’t stretch */
-.date-button, #task-add {
-    width: 40px;
-    height: 40px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-
 #add-task-container {
+    width: 30%;
     margin: 1rem auto 2.5rem auto;
     box-shadow: 0.4rem 0.4rem 1.5rem rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
 
+}
+.add-task-input {
+    max-width: 100%;
+    display: flex;
+    flex-direction: row;
+    border: none;
+    outline: none;
 }
 #main-container {
     display: flex;
@@ -127,11 +107,11 @@ nav :is(a:hover, a:focus) {
   }
   
   .status-container .card-title {
-    font-size: 1.25rem; /* Increase font size */
+    font-size: 1.5rem; /* Increase font size */
   }
   
   .status-container .card-text {
-    font-size: 1rem; /* Increase font size */
+    font-size: 1.9rem; /* Increase font size */
   }
 .date {
     width: 80px;
@@ -282,20 +262,24 @@ nav :is(a:hover, a:focus) {
   }
   /* main part responsive */
   @media (max-width: 1200px) {
+    .status-container {
+        align-items: center;
+        font-size: 1.8rem;
+      }
     .card-title {
-      font-size: 1.25rem;
+      font-size: 1.9rem;
     }
   
     .card-text {
-      font-size: 1rem;
+      font-size: 1.6rem;
     }
   
     .form-control {
-      font-size: 0.875rem;
+      font-size: 1.3rem;
     }
   
     .btn {
-      font-size: 0.875rem;
+      font-size: 1.5rem;
     }
   }
   
@@ -303,6 +287,7 @@ nav :is(a:hover, a:focus) {
     .status-container {
       flex-direction: column;
       align-items: center;
+      font-size: 1.8rem;
     }
   
     .card {
@@ -314,61 +299,66 @@ nav :is(a:hover, a:focus) {
     }
   
     .card-title {
-      font-size: 1.125rem;
+      font-size: 1.8rem;
     }
   
     .card-text {
-      font-size: 0.875rem;
+      font-size: 1.5rem;
     }
   
     .form-control {
-      font-size: 0.75rem;
+      font-size: 1.2rem;
     }
   
     .btn {
-      font-size: 0.75rem;
+      font-size: 1.2rem;
     }
   }
   
   @media (max-width: 768px) {
+    .status-container {
+        flex-direction: column;
+        align-items: center;
+        font-size: 1.5rem;
+      }
     .card-title {
-      font-size: 1rem;
+      font-size: 1.5rem;
     }
   
     .card-text {
-      font-size: 0.75rem;
+      font-size: 1.2rem;
     }
   
     .form-control {
-      font-size: 0.625rem;
+      font-size: 1rem;
     }
   
     .btn {
-      font-size: 0.625rem;
+      font-size: 1rem;
     }
   }
   
   @media (max-width: 576px) {
     .card-title {
-      font-size: 0.875rem;
+      font-size: 1.2rem;
     }
   
     .card-text {
-      font-size: 0.625rem;
+      font-size: 1rem;
     }
   
     .form-control {
-      font-size: 0.5rem;
+      font-size: 0.9rem;
     }
   
     .btn {
-      font-size: 0.5rem;
+      font-size: 0.8rem;
     }
   }
   /*Footer part responsive*/
   @media (max-width: 1200px) {
     .footer p {
-      font-size: 0.875rem;
+      font-size: 1.2rem;
     }
   
     .footer .social-icons a {
@@ -378,7 +368,7 @@ nav :is(a:hover, a:focus) {
   
   @media (max-width: 992px) {
     .footer p {
-      font-size: 0.75rem;
+      font-size: 1rem;
     }
   
     .footer .social-icons a {
@@ -388,7 +378,7 @@ nav :is(a:hover, a:focus) {
   
   @media (max-width: 768px) {
     .footer p {
-      font-size: 0.625rem;
+      font-size: 0.9rem;
     }
   
     .footer .social-icons a {
@@ -398,7 +388,7 @@ nav :is(a:hover, a:focus) {
   
   @media (max-width: 576px) {
     .footer p {
-      font-size: 0.5rem;
+      font-size: 0.8rem;
     }
   
     .footer .social-icons a {
@@ -406,46 +396,60 @@ nav :is(a:hover, a:focus) {
     }
   }
 
-  /* Responsive Adjustments */
-@media (max-width: 600px) { /* Small screens */
+    /* Add Task Container responsive */
+  @media (max-width: 600px) { /* Small screens */
+    #add-task-container {
+        width: 80%; /* Adjust the width */
+    }
     .add-task-input {
-        gap: 5px;
+        width: 350px; /* Prevents excessive stretching */
+        margin: 0 auto; /* Center alignment */
     }
 
     .form-floating input {
-        min-width: 150px; /* Prevents excessive shrinking */
+        min-width: 200px; /* Prevents excessive shrinking */
     }
 }
-/* For Tablets (768px and above) */
-@media (min-width: 768px) {
+  @media (min-width: 768px) {
+    #add-task-container {
+        width: 50%; /* Adjust the width */
+    }
     .add-task-input {
-        gap: 15px; /* More spacing for larger screens */
+        width: 300px; /* Prevents excessive stretching */
+        margin: 0 auto; /* Center alignment */
     }
 
     .form-floating input {
-        min-width: 280px;
+        min-width: 160px;
     }
 }
+
 /* For Medium Screens (992px and above) */
 @media (min-width: 992px) {
+    #add-task-container {
+        width: 40%; /* Adjust the width */
+    }
     .add-task-input {
-        gap: 20px;
+        width: 300px; /* Prevents excessive stretching */
+        margin: 0 auto; /* Center alignment */
     }
 
     .form-floating input {
-        min-width: 350px;
+        min-width: 200px;
     }
 }
 
 /* For Large Screens (1200px and above) */
 @media (min-width: 1200px) {
+    #add-task-container {
+        width: 30%; /* Adjust the width */
+    }
     .add-task-input {
-        gap: 25px;
-        max-width: 800px; /* Prevents excessive stretching */
+        width: 400px; /* Prevents excessive stretching */
         margin: 0 auto; /* Center alignment */
     }
 
     .form-floating input {
-        min-width: 400px;
+        min-width: 250px;
     }
 }
