@@ -1,0 +1,501 @@
+TaskID,Task_Description,Keywords,Due_Days,Priority_Score
+1,Submit a project proposal for a new client,"submit,project,proposal,new,client,work",5,4
+2,Reduce caffeine intake for a day,"reduce,caffeine,intake,health",5,0
+3,Try a new recipe for a homemade meal,"try,new,recipe,homemade,meal,personal",4,5
+4,Review project deliverables and set deadlines for completion,"review,project,deliverables,set,deadlines,work",1,4
+5,Watch an educational documentary on history,"watch,educational,documentary,history,education",3,2
+6,Create a marketing campaign for a new product,"create,marketing,campaign,new,product,work",2,4
+7,Submit a report on monthly work achievements,"submit,report,monthly,work,achievements,work",5,4
+8,Review and update your educational portfolio,"review,update,educational,portfolio,education",6,2
+9,Take a relaxing bath with essential oils,"take,relaxing,bath,personal",2,5
+10,Write a summary of a history documentary,"write,summary,history,documentary,education",5,2
+11,Attend a professional development webinar,"attend,professional,development,webinar,work",4,4
+12,Develop a project timeline and assign team tasks,"develop,project,timeline,assign,tasks,work",4,4
+13,Plan a weekend getaway to relax and recharge,"plan,weekend,getaway,relax,personal",3,5
+14,Take a vitamin supplement for immune health,"take,vitamin,supplement,immune,health",1,0
+15,Prepare and send an important business proposal,"prepare,send,business,proposal,work",2,4
+16,Write a research paper for a business studies class,"write,research,paper,business,studies,education",3,2
+17,Rearrange bookshelves by category,"rearrange,bookshelves,category,household",2,3
+18,Clean and disinfect the bathroom,"clean,disinfect,bathroom,household",4,3
+19,Water indoor plants,"water,indoor,plants,household",5,3
+20,Take an online language learning session,"take,online,language,learning,session,education",3,2
+21,Drink a cup of green tea for better metabolism,"drink,green,tea,metabolism,health",3,0
+22,Try a new fruit or vegetable,"try,new,fruit,vegetable,health",2,0
+23,Fix a broken drawer or cabinet handle,"fix,broken,drawer,cabinet,handle,household",5,3
+24,Do a bodyweight workout at home,"do,bodyweight,workout,home,health",6,0
+25,Plan a family picnic for relaxation and bonding,"plan,family,picnic,relaxation,personal",6,5
+26,Meditate for 10 minutes to improve mental clarity,"meditate,mental,clarity,health",1,0
+27,Update your online work portfolio,"update,online,work,portfolio,work",4,4
+28,Write a performance review for an employee,"write,performance,review,employee,work",4,4
+29,Read a book on professional development,"read,book,professional,development,work",6,4
+30,Take a mental health day to reduce stress,"take,mental,health,day,reduce,stress",3,0
+31,Prepare a healthy homemade salad,"prepare,healthy,salad,health",4,0
+32,Try a new recipe and cook dinner for yourself,"try,new,recipe,cook,dinner,personal",2,5
+33,Prepare a weekly work report,"prepare,weekly,work,report,work",6,4
+34,Visit a new place in town to experience something different,"visit,new,place,town,experience,different,personal",5,5
+35,Take a walk to boost your mood and energy,"walk,boost,mood,energy,health",2,0
+36,Wash and store seasonal clothing properly,"wash,store,seasonal,clothing,properly,household",6,3
+37,Write a letter to your future self,"write,letter,future,self,personal",2,5
+38,Read an article on leadership strategies,"read,article,leadership,strategies,work",6,4
+39,Attend a health checkup for annual screening,"attend,health,checkup,annual,screening",4,0
+40,Start a fitness challenge with friends,"start,fitness,challenge,friends,personal",7,5
+41,Try a self-care routine with skincare,"try,self-care,routine,skincare,personal",6,5
+42,Clean and organize the living room,"clean,organize,living,room,household",3,3
+43,Start a new creative hobby such as painting or writing,"start,new,creative,hobby,painting,writing,personal",6,5
+44,Do 20 minutes of deep breathing exercises,"do,deep,breathing,exercises,health",2,0
+45,Rearrange bookshelves for better organization,"rearrange,bookshelves,better,organization,household",5,3
+46,Schedule an annual physical check-up with your doctor,"schedule,annual,physical,check-up,doctor,health",1,0
+47,Write a poem about your current emotions,"write,poem,current,emotions,personal",3,5
+48,Review your personal finances and set a budget,"review,personal,finances,budget,personal",3,5
+49,Go for a scenic walk or drive,"go,scenic,walk,drive,personal",4,5
+50,Join a book club to improve reading habits and knowledge,"join,book,club,reading,habits,education",3,2
+51,Clean and declutter your car,"clean,declutter,car,household",3,3
+52,Complete a science project for a school assignment,"complete,science,project,school,assignment,education",4,2
+53,Sleep for 8 hours to improve health and focus,"sleep,health,focus,well-being",5,0
+54,Prepare a homemade healthy snack,"prepare,homemade,healthy,snack,health",6,0
+55,Try an online learning course,"try,online,learning,course,education",6,2
+56,Read a personal development book to improve mindset,"read,personal,development,book,mindset,personal",7,5
+57,Take a relaxing bath with essential oils,"take,relaxing,bath,essential,oils,personal",6,5
+58,Spend quality time with family over the weekend,"spend,quality,time,family,personal",6,5
+59,Replace old light bulbs with energy-efficient ones,"replace,old,light,bulbs,energy-efficient,household",6,3
+60,Prepare an agenda for the next team meeting,"prepare,agenda,next,team,meeting,work",1,4
+61,Host a team meeting to review project progress,"host,team,meeting,review,progress,work",5,4
+62,Try a guided meditation session,"try,guided,meditation,session,personal",4,5
+63,Respond to important work emails,"respond,work,emails,important",1,4
+64,Complete a financial budgeting course online,"complete,financial,budgeting,course,education",2,2
+65,Research industry trends for insights,"research,industry,trends,insights,work",5,4
+66,Listen to a lecture on an unfamiliar topic,"listen,lecture,unfamiliar,topic,education",4,2
+67,Write a short biography of a famous person,"write,short,biography,famous,person,education",5,2
+68,Drink at least 8 glasses of water,"drink,water,hydration,health",2,0
+69,Plan a solo day trip,"plan,solo,day,trip,personal",4,5
+70,Plan a solo day trip for relaxation,"plan,solo,day trip,relaxation,personal",2,5
+71,Write a short essay on a science topic,"write,short,essay,science,topic,education",6,2
+72,Write a research paper on advancements in machine learning,"write,research,paper,advancements,machine,learning,education",2,2
+73,Host a game night with friends for fun and relaxation,"host,game,night,friends,fun,relaxation,personal",7,5
+74,Set up a new home security system,"set up,new,home,security,system,household",6,3
+75,Have a healthy breakfast with protein and fiber,"healthy,breakfast,protein,fiber,health",3,0
+76,Prepare for an important client presentation,"prepare,client,presentation,work",2,4
+77,Research the history of ancient civilizations,"research,history,ancient,civilizations,education",6,2
+78,Do a full-body stretching routine,"do,full-body,stretching,routine,health",2,0
+79,Brainstorm innovative ideas for a project,"brainstorm,innovative,ideas,project,work",2,4
+80,Stretch for 15 minutes after waking up,"stretch,15,minutes,waking,health",4,0
+81,Submit homework for the psychology class,"submit,homework,psychology,class,education",5,2
+82,Tidy up the garage and dispose of old items,"tidy,garage,dispose,old,items,household",6,3
+83,Write a one-page summary of a lecture,"write,one-page,summary,lecture,education",3,2
+84,Spend time outdoors to improve mood and focus,"spend,time,outdoors,mood,focus,personal",4,5
+85,Attend a virtual career fair,"attend,virtual,career,fair,work",5,4
+86,Update internal documentation for work processes,"update,internal,documentation,work,processes,work",5,4
+87,Practice a creative activity like painting,"practice,creative,painting,personal",4,5
+88,Enroll in an online language course,"enroll,online,language,course,education",6,2
+89,Spend a day without using social media,"spend,day,without,social,media,personal",6,5
+90,Improve email communication templates,"improve,email,communication,templates,work",5,4
+91,Complete a coding assignment for your computer science course,"complete,coding,assignment,computer,science,education",6,2
+92,Practice solving math puzzles,"practice,solving,math,puzzles,education",4,2
+93,Deep clean the refrigerator and dispose of expired food,"deep,clean,refrigerator,dispose,expired,food,household",2,3
+94,Wash windows inside and out for a clearer view,"wash,windows,inside,out,clearer,view,household",2,3
+95,Organize storage boxes in the attic,"organize,storage,boxes,attic,household",5,3
+96,Take a solo walk in a nature park,"take,solo,walk,nature,park,personal",2,5
+97,Schedule a therapy session to manage mental health,"schedule,therapy,session,mental,health",2,0
+98,Develop a pitch for a new work idea,"develop,pitch,new,work,idea,work",2,4
+99,Plan a productivity strategy for next week,"plan,productivity,strategy,next,week,work",4,4
+100,Write a paragraph in a new language,"write,paragraph,new,language,education",3,2
+101,Have a virtual hangout with friends and family,"virtual,hangout,friends,family,personal",4,5
+102,Wipe and disinfect doorknobs and switches,"wipe,disinfect,doorknobs,switches,household",2,3
+103,Create a marketing strategy for a new product launch,"create,marketing,strategy,product,launch,work",2,4
+104,Write a letter to yourself reflecting on personal growth,"write,letter,personal,growth,reflection,personal",6,5
+105,Read a book on personal finance,"read,book,personal,finance,education",2,2
+106,Complete a certification course in digital marketing,"complete,certification,digital,marketing,course,education",2,2
+107,Take a 20-minute power nap,"take,20-minute,power,nap,health",3,0
+108,Plan meals for the upcoming week,"plan,meals,upcoming,week,household",3,3
+109,Prepare a business presentation for potential investors,"prepare,business,presentation,investors,work",1,4
+110,Write an essay on climate change impact,"write,essay,climate,change,impact,education",3,2
+111,Audit workplace efficiency and suggest improvements,"audit,workplace,efficiency,suggest,improvements,work",4,4
+112,Take a walk outdoors to boost energy levels,"take,walk,energy,health",3,0
+113,Write a letter of appreciation to someone,"write,letter,appreciation,someone,personal",2,5
+114,Schedule a fitness assessment with a personal trainer,"schedule,fitness,assessment,personal,trainer,health",5,0
+115,Evaluate team productivity metrics,"evaluate,team,productivity,metrics,work",4,4
+116,Schedule a client call to discuss project details,"schedule,client,call,discuss,project,details,work",1,4
+117,Take an evening stroll for relaxation,"take,evening,stroll,relaxation,personal",2,5
+118,Write an essay for the literature class,"write,essay,literature,class,education",4,2
+119,Replace soda with water for a day,"replace,soda,water,day,health",5,0
+120,Take an advanced coding class in Python,"take,advanced,coding,class,Python,education",3,2
+121,Join a fitness class to improve strength and flexibility,"join,fitness,class,strength,flexibility,health",1,0
+122,Attend an online course on data science fundamentals,"attend,online,course,data,science,fundamentals,education",4,2
+123,Write a report on the performance of the latest project,"write,report,performance,latest,project,work",4,4
+124,Get a professional massage to relax muscles and relieve stress,"professional,massage,relax,muscles,stress,health",3,0
+125,Try a new hobby or creative activity,"try,new,hobby,creative,activity,personal",2,5
+126,Drink more water throughout the day,"drink,water,health",3,0
+127,Vacuum the floors and mop for a cleaner home,"vacuum,floors,mop,cleaner,home,household",3,3
+128,Get at least 7 hours of sleep,"get,sleep,rest,health",5,0
+129,Watch a TED Talk on personal development,"watch,TED Talk,personal,development,education",6,2
+130,Sort and donate unused kitchen utensils,"sort,donate,unused,kitchen,utensils,household",2,3
+131,Wash car and vacuum interior,"wash,car,vacuum,interior,household",3,3
+132,Write a business report summarizing last quarter’s results,"write,business,report,quarter,results,work",2,4
+133,Replace old light bulbs with LED ones,"replace,old,light,bulbs,LED,household",6,3
+134,Listen to calming music before sleep,"listen,calming,music,before,sleep,personal",6,5
+135,Check and replace expired pantry items,"check,replace,expired,pantry,items,household",5,3
+136,Attend a networking event for career growth,"attend,networking,event,career,growth,work",6,4
+137,Assemble new furniture at home,"assemble,new,furniture,home,household",3,3
+138,Try a new DIY craft project,"try,new,DIY,craft,project,personal",5,5
+139,Sort out mail and recycle unnecessary documents,"sort,mail,recycle,documents,household",5,3
+140,Clean windows and mirrors at home,"clean,windows,mirrors,home,household",2,3
+141,Unplug from electronics and enjoy some quiet time,"unplug,from,electronics,quiet,time,personal",5,5
+142,Try a guided meditation for sleep,"try,guided,meditation,sleep,health",6,0
+143,Create a business strategy proposal for management,"create,business,strategy,proposal,management,work",2,4
+144,Experiment with a new fashion style,"experiment,new,fashion,style,personal",4,5
+145,Watch an online lecture on philosophy,"watch,online,lecture,philosophy,education",4,2
+146,Try a new hobby for fun,"try,new,hobby,personal",4,5
+147,Start a gratitude journal to focus on positive aspects of life,"start,gratitude,journal,positive,aspects,personal",6,5
+148,Write a poem or short story,"write,poem,short,story,personal",3,5
+149,Prepare for an upcoming job interview,"prepare,upcoming,job,interview,work",2,4
+150,Unplug from social media for a day,"unplug,social,media,day,personal",2,5
+151,Reorganize pantry with labeled containers,"reorganize,pantry,labeled,containers,household",4,3
+152,Vacuum carpets and rugs,"vacuum,carpets,rugs,household",4,3
+153,Do a home workout to strengthen your core,"home,workout,strengthen,core,health",1,0
+154,Prepare an agenda for an upcoming team meeting,"prepare,agenda,team,meeting,work",3,4
+155,Track your daily food intake to monitor your nutrition,"track,food,intake,monitor,nutrition,health",5,0
+156,Practice deep breathing exercises,"practice,deep,breathing,health",6,0
+157,Practice handwriting for better penmanship,"practice,handwriting,better,penmanship,education",5,2
+158,Sort and fold laundry neatly,"sort,fold,laundry,household",3,3
+159,Read a book related to business management,"read,book,business,management,education",5,2
+160,Do 15 minutes of yoga,"do,15,minutes,yoga,health",3,0
+161,Dust and clean light fixtures,"dust,clean,light,fixtures,household",2,3
+162,Plan team-building activities for office morale,"plan,team-building,activities,office,morale,work",2,4
+163,Start a 30-day fitness challenge to improve health,"start,30-day,fitness,challenge,health",2,0
+164,Review notes for an upcoming exam on computer science,"review,notes,exam,computer,science,education",4,2
+165,Complete an online course for professional development,"complete,online,course,professional,development",5,2
+166,Write an essay on the benefits of learning multiple languages,"write,essay,benefits,learning,multiple,languages,education",3,2
+167,Complete an advanced mathematics practice set,"complete,advanced,mathematics,practice,set,education",2,2
+168,Learn about a famous scientist,"learn,famous,scientist,education",2,2
+169,Perform routine maintenance on the washing machine,"routine,maintenance,washing,machine,household",5,3
+170,Wipe down kitchen appliances,"wipe,down,kitchen,appliances,household",3,3
+171,Complete an online marketing course to enhance skills,"complete,online,marketing,course,education",2,2
+172,Take time to organize your workspace for better efficiency,"organize,workspace,efficiency,work",1,4
+173,Eat a high-protein breakfast,"eat,high-protein,breakfast,health",3,0
+174,Avoid processed sugar for a day,"avoid,processed,sugar,health",5,0
+175,Declutter and organize the bedroom,"declutter,organize,bedroom,household",2,3
+176,Review study material for a final exam in chemistry,"review,study,material,final,exam,chemistry,education",6,2
+177,Write a handwritten letter to a friend or family member,"write,handwritten,letter,friend,family,personal",3,5
+178,Submit a research paper on environmental sustainability,"submit,research,paper,environmental,sustainability,education",4,2
+179,Rearrange furniture in the living room for better flow,"rearrange,furniture,living,room,household",6,3
+180,Study for a history exam on world wars,"study,history,exam,world,wars,education",3,2
+181,Join an online language learning platform,"join,online,language,learning,platform,education",6,2
+182,Clean and disinfect high-touch surfaces in the house,"clean,disinfect,high-touch,surfaces,household",2,3
+183,Sort through and donate old electronics,"sort,donate,old,electronics,household",3,3
+184,Attend a networking event for career growth,"attend,networking,event,career,growth",6,2
+185,Prepare a debate speech for a competition,"prepare,debate,speech,competition,education",5,2
+186,Clean the windows and mirrors in the house,"clean,windows,mirrors,household",5,4
+187,Eat a completely healthy meal,"eat,completely,healthy,meal,health",3,0
+188,Research historical events for a history assignment,"research,historical,events,history,assignment,education",5,2
+189,Learn a new programming language for future projects,"learn,programming,language,future,projects,education",4,2
+190,Create a list of personal achievements,"create,list,personal,achievements,personal",5,5
+191,Arrange a family dinner for quality time together,"arrange,family,dinner,quality,time,personal",6,5
+192,Do a DIY home decor project,"do,DIY,home,decor,project,personal",5,5
+193,Create a playlist of motivational songs,"create,playlist,motivational,songs,personal",6,5
+194,Learn about new productivity tools,"learn,new,productivity,tools,work",4,4
+195,Practice mindfulness and meditation for mental clarity,"mindfulness,meditation,mental,clarity,personal",6,5
+196,Organize a picnic in the park,"organize,picnic,park,personal",5,5
+197,Memorize a poem or famous quote,"memorize,poem,famous,quote,education",6,2
+198,Try intermittent fasting for metabolic health,"try,intermittent,fasting,metabolic,health,health",2,0
+199,Avoid screen time an hour before bed,"avoid,screen,time,before,bed,health",6,0
+200,Join a local sports club to stay active,"join,local,sports,club,stay,active,health",5,0
+201,Start a hobby such as painting or knitting,"start,hobby,painting,knitting,personal",6,5
+202,Start a new book in your favorite genre,"start,new,book,favorite,genre,personal",3,5
+203,Prepare a nutritious breakfast with whole grains and protein,"prepare,nutritious,breakfast,whole,grains,protein,health",3,0
+204,Develop a plan for optimizing workflow efficiency in the team,"develop,plan,optimizing,workflow,efficiency,team,work",5,4
+205,Replace old batteries in remote controls,"replace,old,batteries,remote,household",6,3
+206,Take an online test to assess your knowledge in science,"online,test,knowledge,science,education",5,2
+207,Schedule a dental cleaning appointment,"schedule,dental,cleaning,appointment,health",4,0
+208,Plan a balanced meal for the week,"plan,balanced,meal,week,health",2,0
+209,Sort and donate unused household items,"sort,donate,unused,items,household",6,4
+210,Get a vision check-up to ensure optimal eye health,"get,vision,check-up,optimal,eye,health",4,0
+211,Take a solo trip for personal reflection and growth,"solo,trip,personal,reflection,growth,personal",6,5
+212,Learn a new dance routine,"learn,new,dance,routine,personal",4,5
+213,Go on a digital detox for 24 hours,"go,digital,detox,24,hours,personal",2,5
+214,Prepare a nutritious smoothie,"prepare,nutritious,smoothie,health",3,0
+215,Avoid screens 1 hour before bed,"avoid,screens,before,bed,health",5,0
+216,Fix a broken door handle in the kitchen,"fix,broken,door,handle,kitchen,household",4,3
+217,Wash and sanitize kitchen sponges,"wash,sanitize,kitchen,sponges,household",2,3
+218,Create a five-year career plan,"create,five-year,career,plan,work",3,4
+219,Install a new light fixture in the living room,"install,light,fixture,living,room,household",4,3
+220,Create a new project roadmap for your team,"create,new,project,roadmap,team,work",3,4
+221,Improve internal collaboration strategies,"improve,internal,collaboration,strategies,work",3,4
+222,Unwind with a hobby to improve personal well-being,"unwind,hobby,personal,well-being",1,5
+223,Write a summary of an article,"write,summary,article,education",4,2
+224,Do a home workout for 20 minutes,"do,home,workout,health",6,0
+225,Create a mind map for an educational topic,"create,mind map,education,topic,education",3,2
+226,Declutter old paperwork and magazines,"declutter,old,paperwork,magazines,household",6,3
+227,Do a deep breathing exercise,"do,deep,breathing,exercise,health",5,0
+228,Take a break and relax with a hobby or leisure activity,"take,break,relax,hobby,leisure,personal",2,5
+229,Engage in creative writing to express thoughts,"engage,creative,writing,express,thoughts,personal",4,5
+230,Spend 30 minutes in nature,"spend,30,minutes,nature,health",6,0
+231,Spend an evening watching the sunset,"spend,evening,watching,sunset,personal",6,5
+232,Write a short summary of a book you've read,"write,short,summary,book,read,education",2,2
+233,Sort and label storage boxes in the attic or basement,"sort,label,storage,boxes,attic,basement,household",5,3
+234,Schedule one-on-one meetings with teammates,"schedule,meetings,teammates,work",3,4
+235,Write a list of short-term and long-term goals,"write,list,goals,personal",3,5
+236,Write a proposal for a new business initiative,"write,proposal,business,initiative,work",4,4
+237,Sort laundry by colors before washing,"sort,laundry,colors,washing,household",4,3
+238,Attend a self-help seminar for personal development,"attend,self-help,seminar,personal,development",4,5
+239,Watch a TED talk on personal growth,"watch,TED,talk,personal,growth,education",5,2
+240,Have a balanced diet with plenty of fruits and vegetables,"balanced,diet,fruits,vegetables,health",4,0
+241,Review and approve client contracts,"review,approve,client,contracts,work",4,4
+242,Organize closet and donate unused clothes,"organize,closet,donate,unused,clothes,household",2,3
+243,Conduct a competitive market analysis for work,"conduct,competitive,market,analysis,work",2,4
+244,Take the stairs instead of the elevator,"take,stairs,instead,elevator,health",4,0
+245,Watch a TED Talk on time management,"watch,TED,Talk,time,management,education",3,2
+246,Research and summarize a historical event,"research,summarize,historical,event,education",2,2
+247,Try a new board game with friends,"try,new,board,game,friends,personal",2,5
+248,Do a morning workout for overall fitness,"morning,workout,fitness,health",1,0
+249,Join an online book club,"join,online,book,club,education",5,2
+250,Research modern teaching methods for better classroom engagement,"research,modern,teaching,methods,classroom,engagement,education",5,2
+251,Evaluate personal work-life balance,"evaluate,personal,work-life,balance,work",2,4
+252,Wipe down kitchen appliances,"wipe,down,kitchen,appliances,household",4,3
+253,Visit a physical therapist for an evaluation of posture,"visit,physical,therapist,evaluation,posture,health",1,0
+254,Take a morning walk outdoors,"take,morning,walk,health",2,0
+255,Organize under the sink storage,"organize,under,sink,storage,household",6,3
+256,Book an annual health check-up,"book,annual,health,check-up,health",4,0
+257,Clean and sanitize the kitchen counters,"clean,sanitize,kitchen,counters,household",6,3
+258,Organize a weekend trip to a local destination,"organize,weekend,trip,local,destination,personal",3,5
+259,Research potential clients for business expansion,"research,potential,clients,business,expansion,work",5,4
+260,Complete an online project management certification,"complete,online,project,management,certification,education",2,2
+261,Develop a marketing strategy for a new product,"develop,marketing,strategy,new,product,work",3,4
+262,Drink at least 8 glasses of water,"drink,8,glasses,water,health",3,0
+263,Improve customer feedback response system,"improve,customer,feedback,response,system,work",6,4
+264,Practice deep breathing exercises for relaxation,"practice,deep,breathing,exercises,relaxation,health",5,0
+265,Watch a documentary on ancient civilizations,"watch,documentary,ancient,civilizations,education",5,2
+266,Perform a self-checkup for mental health,"perform,self-checkup,mental,health",3,0
+267,Avoid processed food for a week and focus on whole foods,"avoid,processed,food,whole,foods,health",3,0
+268,Reorganize the kitchen pantry for easy access,"reorganize,kitchen,pantry,access,household",3,3
+269,Update your professional resume,"update,professional,resume,work",3,4
+270,Plan a team-building activity for colleagues,"plan,team-building,activity,colleagues,work",1,4
+271,Complete an assignment for your computer science course,"complete,assignment,computer,science,course",3,2
+272,Track daily water intake to ensure proper hydration,"track,daily,water,intake,proper,hydration,health",1,0
+273,Organize work files and digital documents,"organize,work,files,digital,documents,work",6,4
+274,Solve crossword puzzles for mental exercise,"solve,crossword,puzzles,education",6,2
+275,Take notes on a self-improvement book,"take,notes,self-improvement,book,education",5,2
+276,Vacuum carpets and upholstery to clean the house,"vacuum,carpets,upholstery,clean,household",5,3
+277,Make a homemade electrolyte drink,"make,homemade,electrolyte,drink,health",3,0
+278,Enroll in a beginner coding course to start learning programming,"enroll,beginner,coding,course,learning,programming,education",2,2
+279,Attend a workshop on time management for students,"attend,workshop,time,management,students",2,2
+280,Attend a strategy meeting for product launch,"attend,meeting,product,launch,work",3,4
+281,Organize the pantry and dispose of expired food,"organize,pantry,dispose,expired,food",4,3
+282,Organize your digital files and backup important documents,"organize,digital,files,backup,documents,household",2,3
+283,Set a weekly exercise routine to stay healthy,"weekly,exercise,routine,stay,healthy,health",4,0
+284,Join a public speaking club,"join,public,speaking,club,education",4,2
+285,Watch an informative YouTube documentary,"watch,informative,YouTube,documentary,education",5,2
+286,Mop the floors and clean the bathroom,"mop,floors,clean,bathroom,household",3,3
+287,Eat a fiber-rich breakfast,"eat,fiber-rich,breakfast,health",3,0
+288,Drink enough water throughout the day for hydration,"drink,water,hydration,health",4,0
+289,Write a report on project progress,"write,report,project,progress,work",2,4
+290,Create a study schedule to improve learning efficiency,"create,study,schedule,learning,efficiency,education",6,2
+291,Improve presentation skills by practicing public speaking,"improve,presentation,skills,public,speaking,work",4,4
+292,Cook a special meal for yourself or loved ones,"cook,special,meal,yourself,loved,ones,personal",6,5
+293,Fix broken electrical outlets at home,"fix,broken,electrical,outlets,home,household",4,3
+294,Set career goals for the next 5 years,"set,career,goals,5,years",7,2
+295,Listen to a podcast on a new subject,"listen,podcast,new,subject,education",3,2
+296,Sleep for at least 7 hours,"sleep,at,least,7,hours,health",5,0
+297,Create a personal career development plan,"create,personal,career,development,plan,work",6,4
+298,Create a presentation on the importance of mental health awareness,"presentation,mental,health,awareness,education",5,2
+299,Declutter the closet and donate unused clothes,"declutter,closet,donate,unused,clothes,household",3,3
+300,Write a literature review for an academic paper,"write,literature,review,academic,paper,education",3,2
+301,Write a personal reflection about the past month,"write,personal,reflection,past,month,personal",3,5
+302,Wash your car and clean the exterior,"wash,car,clean,exterior,household",5,3
+303,Sort through old documents and shred unnecessary ones,"sort,old,documents,shred,unnecessary,ones,household",4,3
+304,Try a new exercise routine,"try,new,exercise,routine,personal",3,5
+305,Rearrange bookshelves and organize reading materials,"rearrange,bookshelves,organize,reading,materials,household",5,3
+306,Do a 15-minute yoga session,"do,yoga,session,health",3,0
+307,Wash and dry bed sheets and pillowcases,"wash,dry,bed,sheets,pillowcases,household",6,3
+308,Watch a historical documentary,"watch,historical,documentary,education",6,2
+309,Complete chores like vacuuming and dusting the house,"chores,vacuuming,dusting,household",6,3
+310,Fix a leaking faucet,"fix,leaking,faucet,household",6,3
+311,Set monthly career development goals,"set,monthly,career,development,goals,work",4,4
+312,Try a new recipe for a homemade meal,"try,new,recipe,homemade,meal,personal",3,5
+313,Organize the garage and dispose of unnecessary items,"organize,garage,dispose,unnecessary,items,household",6,3
+314,Enroll in a leadership development course,"enroll,leadership,development,course,education",2,2
+315,Rearrange the living room furniture for a new look,"rearrange,living,room,furniture,new,look,household",6,3
+316,Create a scrapbook of favorite memories,"create,scrapbook,favorite,memories,personal",4,5
+317,Engage in a career mentoring session,"engage,career,mentoring,session,work",5,4
+318,Start a daily reflection journal,"start,daily,reflection,journal,personal",5,5
+319,Sort and label household documents,"sort,label,household,documents,household",3,3
+320,Organize household bills and receipts,"organize,household,bills,receipts,household",3,3
+321,Schedule a physiotherapy session,"schedule,physiotherapy,session,health",4,0
+322,Practice a new skill for personal growth,"practice,skill,personal,growth",4,5
+323,Write a proposal for a new work initiative,"write,proposal,new,work,initiative,work",2,4
+324,Polish wooden furniture,"polish,wooden,furniture,household",5,3
+325,Study for the upcoming history exam,"study,history,exam,education",5,2
+326,Check and replace household batteries,"check,replace,household,batteries,household",5,3
+327,Attend a health and wellness seminar,"attend,health,wellness,seminar,health",1,0
+328,Take a day off to recharge and rest,"take,day,off,recharge,rest,personal",4,5
+329,Learn to cook a new dish,"learn,cook,new,dish,personal",6,5
+330,Conduct a team meeting to review project status,"conduct,team,meeting,project,status,work",3,4
+331,Go for a run to improve cardiovascular health,"go,run,cardiovascular,health,personal",7,5
+332,Organize a social event to connect with friends,"organize,social,event,friends,personal",7,4
+333,Take a walk around the neighborhood to stretch your legs,"walk,neighborhood,stretch,legs,health",2,0
+334,Do a mental health check-in and practice mindfulness,"mental,health,check-in,mindfulness,health",5,0
+335,Practice deep breathing exercises for relaxation,"practice,deep,breathing,relaxation,health",1,0
+336,Get a full night's sleep to improve overall health,"get,full,night's,sleep,overall,health",4,0
+337,Organize the home office and declutter the workspace,"organize,home,office,declutter,workspace,household",3,3
+338,Write a project proposal for a new client,"write,project,proposal,new,client,work",1,4
+339,Check and refill essential home supplies,"check,refill,home,supplies,household",4,3
+340,Fix minor leaks in the kitchen or bathroom,"fix,minor,leaks,kitchen,bathroom,household",6,3
+341,Read a chapter on economics and take notes,"read,chapter,economics,take,notes,education",4,2
+342,Develop a project plan for a new product,"develop,project,plan,new,product,work",3,4
+343,Summarize a book chapter in notes,"summarize,book,chapter,notes,education",3,2
+344,Make a vision board to visualize personal goals,"make,vision,board,personal,goals",5,5
+345,Eat a healthy breakfast to start the day,"eat,healthy,breakfast,health",2,0
+346,Start a gratitude journal,"start,gratitude,journal,personal",6,5
+347,"Walk 10,000 steps in a day","walk,10000,steps,day,health",2,0
+348,Change bedsheets and pillowcases,"change,bedsheets,pillowcases,household",4,3
+349,Practice a new language for 30 minutes,"practice,new,language,30 minutes,education",4,2
+350,Draft an email proposal for a new client,"draft,email,proposal,new,client,work",3,4
+351,Practice mindfulness meditation for stress relief,"practice,mindfulness,meditation,stress,relief,personal",3,5
+352,Drink herbal tea for relaxation,"drink,herbal,tea,relaxation,health",3,0
+353,Clean the refrigerator and discard expired items,"clean,refrigerator,discard,expired,items,household",2,3
+354,Write a book review,"write,book,review,education",4,2
+355,Take a short break every hour during work,"take,short,break,every,hour,work,health",4,0
+356,Paint a room to refresh the interior design,"paint,room,refresh,interior,design,household",3,3
+357,Clean and disinfect kitchen counters,"clean,disinfect,kitchen,counters,household",4,3
+358,Take an online quiz to test knowledge,"take,online,quiz,test,knowledge,education",4,2
+359,Organize work emails and folders,"organize,work,emails,folders,work",3,4
+360,Try a new herbal tea for wellness,"try,new,herbal,tea,wellness,health",5,0
+361,Complete a home workout session,"home,workout,health",5,0
+362,Analyze customer feedback for service improvements,"analyze,customer,feedback,service,improvements,work",2,4
+363,Brainstorm new ideas for a product launch,"brainstorm,ideas,product,launch,work",7,4
+364,Practice 15 minutes of stretching every morning,"practice,stretching,every,morning,health",4,0
+365,Engage in a creative hobby like painting or crafting,"engage,creative,hobby,painting,crafting,personal",5,5
+366,Create a household cleaning checklist,"create,household,cleaning,checklist,household",4,3
+367,Learn five new words in a foreign language,"learn,five,new,words,foreign,language,education",5,2
+368,Create a meal plan for the week,"create,meal,plan,week,household",2,3
+369,Rearrange the closet for better organization,"rearrange,closet,better,organization,household",4,3
+370,Schedule a check-up for any existing health concerns,"schedule,check-up,health,concerns",1,0
+371,Improve your LinkedIn profile,"improve,LinkedIn,profile,work",3,4
+372,Attend an online webinar about digital learning tools,"attend,online,webinar,digital,learning,tools,education",6,2
+373,Prepare for an exam by reviewing class notes,"prepare,exam,class,notes,education",4,2
+374,Organize your wardrobe,"organize,wardrobe,household",3,3
+375,Create a work schedule to increase productivity,"create,work,schedule,productivity",2,4
+376,Learn about a new scientific discovery,"learn,new,scientific,discovery,education",4,2
+377,Analyze customer feedback to improve service quality,"analyze,customer,feedback,service,quality,work",3,4
+378,Join a study group to prepare for an upcoming test,"join,study,group,prepare,upcoming,test,education",6,2
+379,Write an outline for a work presentation,"write,outline,work,presentation,work",2,4
+380,Replace air filters in the HVAC system,"replace,air,filters,HVA,system,household",6,3
+381,Take a quiz to test your general knowledge,"take,quiz,test,general,knowledge,education",4,2
+382,Start a new book to unwind before bed,"start,new,book,unwind,personal",4,5
+383,Fix a leaky faucet,"fix,leaky,faucet,household",2,3
+384,Fix a leaky faucet in the kitchen or bathroom,"fix,leaky,faucet,kitchen,bathroom,household",3,3
+385,Practice mindfulness meditation,"practice,mindfulness,meditation,health",6,0
+386,Avoid sugary snacks and opt for healthier alternatives,"avoid,sugary,snacks,healthier,alternatives,health",4,0
+387,Join a wellness program to focus on self-care,"join,wellness,program,self-care,health",5,0
+388,Take the stairs instead of the elevator for better health,"take,stairs,elevator,health",2,0
+389,Conduct a team meeting to discuss quarterly goals,"conduct,team,meeting,quarterly,goals,work",5,4
+390,Do a 10-minute morning stretch routine,"do,10-minute,morning,stretch,routine,health",5,0
+391,Write a short story based on a dream,"write,short,story,dream,education",3,2
+392,Replace one meal with a healthy salad,"replace,meal,healthy,salad,health",5,0
+393,Attend a virtual industry conference,"attend,virtual,industry,conference,work",5,4
+394,Perform a simple stretching routine,"perform,stretching,routine,health",6,0
+395,Clean out your email inbox and organize folders,"clean,email,inbox,organize,personal",5,5
+396,Sort through old clothes and donate to charity,"sort,old,clothes,donate,charity,household",2,3
+397,Schedule an eye check-up,"schedule,eye,checkup,health",4,0
+398,Do a 30-day yoga challenge to improve flexibility,"30-day,yoga,challenge,flexibility,personal",6,5
+399,Read a business case study,"read,business,case,study,work",5,4
+400,Have a nutritious snack with fruits and nuts,"nutritious,snack,fruits,nuts,health",2,0
+401,Fix plumbing issues like a leaky faucet,"fix,plumbing,issues,leaky,faucet,household",2,3
+402,Participate in a community walk for charity,"participate,community,walk,charity,health",2,0
+403,Tidy up the home office for a productive workday,"tidy,home,office,productive,workday",4,3
+404,Plan a weekend getaway for relaxation,"plan,weekend,getaway,relaxation,personal",7,5
+405,Organize a client feedback session for a product,"organize,client,feedback,session,product,work",3,4
+406,Clean air conditioner filters for better air quality,"clean,air,conditioner,filters,air,quality,household",4,3
+407,Attend a leadership workshop for career growth,"attend,leadership,workshop,career,growth,work",3,4
+408,Read a chapter from the chemistry textbook,"read,chapter,chemistry,textbook,education",6,2
+409,Learn a new work-related skill,"learn,new,work-related,skill,work",4,4
+410,Try a new healthy smoothie recipe,"try,new,healthy,smoothie,recipe,health",2,0
+411,Do laundry and fold clothes,"laundry,fold,clothes,household",2,4
+412,Participate in a coding hackathon,"participate,coding,hackathon,education",6,2
+413,Donate old clothes and shoes,"donate,old,clothes,shoes,household",5,3
+414,Do a 5-minute cold shower challenge,"do,5-minute,cold,shower,challenge,health",4,0
+415,Review the latest industry trends for an upcoming meeting,"review,industry,trends,meeting,work",3,4
+416,Organize the workspace for better efficiency,"organize,workspace,efficiency,work",6,4
+417,Make a doctor's appointment for a routine check-up,"make,doctor's,appointment,routine,check-up,health",5,0
+418,Listen to a podcast on world history,"listen,podcast,world,history,education",2,2
+419,Spend time with family and have a movie night,"spend,time,family,movie,night,personal",6,5
+420,Learn basic coding in a new language,"learn,coding,new,language,education",5,2
+421,Dust and clean ceiling fans,"dust,clean,ceiling,fans,household",5,3
+422,Revise past coursework for better understanding,"revise,past,coursework,understanding,education",6,2
+423,Work on an academic project for university,"work,academic,project,university,education",4,2
+424,Organize your home desk and file important documents,"organize,home,desk,file,documents,household",6,3
+425,Update LinkedIn profile with recent achievements,"update,linkedin,profile,achievements,work",5,4
+426,Clean the window blinds and curtains in the living room,"clean,window,blinds,curtains,living,room,household",2,3
+427,Write down three things you are grateful for,"write,three,things,grateful,personal",3,5
+428,Update project plans and allocate resources,"update,project,plans,allocate,resources,work",2,4
+429,Plan goals for the next work quarter,"plan,goals,next,work,quarter,work",3,4
+430,Deep clean the refrigerator,"deep,clean,refrigerator,household",6,3
+431,Try a 24-hour no-sugar challenge,"try,24-hour,no-sugar,challenge,health",4,0
+432,Join a fitness bootcamp for an intense workout experience,"join,fitness,bootcamp,intense,workout,health",1,0
+433,Attend a work-related seminar on leadership,"attend,seminar,leadership,work",4,4
+434,Organize and back up phone photos,"organize,back up,phone,photos,personal",5,5
+435,Rearrange furniture in the living room for a fresh look,"rearrange,furniture,living,room,fresh,look,household",3,3
+436,Take notes from an online course,"take,notes,online,course,education",3,2
+437,Refine presentation skills for meetings,"refine,presentation,skills,meetings,work",6,4
+438,Organize a game night with friends,"organize,game,night,friends,personal",4,5
+439,Mentor a junior colleague at work,"mentor,junior,colleague,work",5,4
+440,Start a book club with friends to discuss interesting reads,"start,book,club,friends,interesting,reads,personal",6,5
+441,Prepare for a math exam by practicing problem sets,"prepare,math,exam,practice,problem,sets,education",5,2
+442,Watch a feel-good movie,"watch,movie,relaxation,personal",5,5
+443,Collaborate on a team project for work,"collaborate,team,project,work",5,4
+444,Create a vision board for future goals,"create,vision,board,future,goals,personal",3,5
+445,Vacuum carpets and rugs,"vacuum,carpets,rugs,household",2,3
+446,Learn a new software tool for work,"learn,new,software,tool,work",5,4
+447,Complete a crossword or Sudoku puzzle,"complete,crossword,Sudoku,puzzle,education",2,2
+448,Do a strength training session,"do,strength,training,session,health",2,0
+449,Research competitors' business strategies,"research,competitors,business,work",4,4
+450,Go for a morning jog,"go,morning,jog,health",2,0
+451,Sort mail and discard unnecessary papers,"sort,mail,discard,papers,household",3,3
+452,Listen to a podcast on leadership,"listen,podcast,leadership,education",2,2
+453,Repaint a room or furniture piece,"repaint,room,furniture,household",5,3
+454,Practice good posture for back health,"practice,good,posture,back,health,health",6,0
+455,Send appreciation emails to colleagues,"send,appreciation,emails,colleagues,work",5,4
+456,Clean the ceiling fans and light fixtures,"clean,ceiling,fans,light,fixtures,household",5,3
+457,Take a weekend trip for a change of scenery and relaxation,"weekend,trip,scenery,relaxation,personal",4,5
+458,Review and update your resume for job opportunities,"review,update,resume,job,opportunities",2,1
+459,Complete the quarterly report for the department,"complete,quarterly,report,department,work",5,4
+460,Fix any minor home damages or scratches,"fix,minor,home,damages,scratches,household",6,3
+461,Read a self-improvement book for personal growth,"read,self-improvement,book,personal,growth,personal",6,5
+462,Study a new topic in psychology,"study,new,topic,psychology,education",2,2
+463,Review company financial statements,"review,company,financial,statements,work",4,4
+464,Schedule a team meeting to discuss project progress,"schedule,team,meeting,project,progress,work",1,4
+465,Take a yoga class for flexibility and relaxation,"take,yoga,class,flexibility,relaxation,health",3,0
+466,Drink at least 8 glasses of water,"drink,8,glasses,water,health",2,0
+467,Deep clean the refrigerator,"deep,clean,refrigerator,household",4,3
+468,Take a walk in nature to reduce stress and improve mental health,"walk,nature,reduce,stress,mental,health",2,0
+469,Write in a journal to reflect on the day,"write,journal,reflect,personal",2,5
+470,Write a blog post on an industry trend,"write,blog,post,industry,trend,work",2,4
+471,Organize and delete unnecessary files on your phone,"organize,delete,unnecessary,files,phone,personal",5,5
+472,Volunteer for a cause you care about,"volunteer,cause,care,personal",7,5
+473,Declutter and donate old furniture,"declutter,donate,old,furniture,household",2,3
+474,Get a cholesterol test to monitor heart health,"get,cholesterol,test,monitor,heart,health,health",3,0
+475,Do a digital detox and stay offline for a day,"digital,detox,offline,personal",5,5
+476,Schedule a doctor's appointment for a health checkup,"schedule,doctor,appointment,health,checkup",1,0
+477,Call an old friend and catch up,"call,old,friend,catch up,personal",6,5
+478,Watch an educational documentary,"watch,educational,documentary,education",6,2
+479,Create a productivity schedule for tasks,"create,productivity,schedule,tasks,work",6,4
+480,Read a fiction novel for leisure,"read,fiction,novel,leisure,personal",5,5
+481,Research an interesting historical event,"research,interesting,historical,event,education",3,2
+482,Do a deep cleaning of the kitchen appliances,"deep,cleaning,kitchen,appliances,household",4,3
+483,Do a random act of kindness for someone,"do,random,act,kindness,personal",4,5
+484,Do a yoga session for flexibility and stress relief,"yoga,flexibility,stress,health",4,0
+485,Schedule a one-on-one meeting with a mentor,"schedule,one-on-one,meeting,mentor,work",4,4
+486,Write a follow-up email for a business proposal,"write,follow-up,email,business,proposal,work",2,4
+487,Create a vision board for career goals,"create,vision,board,career,goals,work",6,4
+488,Read about an important historical figure,"read,important,historical,figure,education",2,2
+489,Read a research paper on quantum computing,"read,research,paper,quantum,computing,education",2,2
+490,Sew a torn piece of clothing instead of replacing it,"sew,torn,clothing,instead,replacing,household",5,3
+491,Reorganize the tool shed or garage,"reorganize,tool,shed,garage,household",5,3
+492,Visit a museum or art gallery for a cultural experience,"visit,museum,art,gallery,cultural,experience,personal",5,5
+493,Organize the laundry area for better efficiency,"organize,laundry,area,better,efficiency,household",4,3
+494,Dust and wipe down all surfaces in the house,"dust,wipe,down,surfaces,household",4,3
+495,Write a letter to your future self,"write,letter,future,self,personal",5,5
+496,Plan an office reorganization for efficiency,"plan,office,reorganization,efficiency,work",3,4
+497,Prepare for a career advancement interview,"prepare,career,advancement,interview",4,2
+498,Declutter the bathroom shelves,"declutter,bathroom,shelves,household",3,3
+499,Host a small gathering with close friends,"host,small,gathering,close,friends,personal",5,5
+500,Practice breathing exercises for relaxation,"practice,breathing,exercises,relaxation,health",2,0

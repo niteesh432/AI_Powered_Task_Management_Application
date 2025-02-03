@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Niteesh Naidu" />
+    <meta name="description" content="Creating a To-Do-List using HTML, CSS, JavaScript" />
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Expires" content="0" />
+    <link rel="icon" href="./images/icon.png" type="image/x-icon" />
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow-models/universal-sentence-encoder"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <title>To Do List | Check it off and conquer the day!</title>
+</head>
+<body class="js-loading">
+    <header id="landing-page">
+        <div class="header-part positon-relative">
+            <img src="./images/back_2.jpg" class="img-fluid positon-relative" alt="background">
+            <img src="./images/todolist_icon.png" alt="icon" id="todo-icon">
+            <div class="container heading-container animate-pop-in">               
+                <h1 class="h1 welcome-heading">Welcome To</h1>
+                <h2 class="heading1 main-heading h2"><span class="nowrap">AI-Powered Task Management Application</span></h2>
+            </div>
+            <div id="landing-page-main-heading">
+                <h2 class="heading4 header-main  animate-pop-in"><span class="nowrap">Organize Your Tasks, Simplify Your Life</span></h2>
+                <p class="heading6 header-aside  animate-pop-in"><span class="nowrap">Streamline your workload with a clear, easy-to-use interface</span></p>
+                <button class="btn btn-success p-3 rounded-2 fw-bold fs-6" id="button">
+                    <a href="sign_in.html" class="text-decoration-none text-light">Begin by Adding Your Task</a>
+                </button>
+            </div>
+        </div>
+        <section class="header-down-arrow">
+            <img src="./images/downarrow.png" width="35" alt="downarrow">
+        </section>
+    </header>
+    <main id="main-part">
+        <div class="container-fluid rounded-5" id="features">
+            <div class="info-and-image rounded-5">
+                <figure>
+                    <img src="./images/bg_1.png" alt="image1" loading="lazy" class="image1">
+                </figure>
+                <div class="container" id="information">
+                    <h3 class="h3 heading-1">Streamlining Tasks for Better Productivity</h3>
+                    <div class="section-1">
+                        <p class="para-1 user-select-auto">This system transforms the management of tasks from a simple list into an intelligent application that self-categorizes tasks, predicts deadlines, and even assigns priorities according to past behaviors. The system allows users to input tasks through voice or text and automatically categorize them according to AI judgment. It adapts according to shifting priorities and schedules with automated reminders and real-time productivity analysis. AI handles routine work, saving the precious time for more meaningful work and saving users from tedious follow-ups.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="basicfeatures-and-image">
+                <figure>
+                    <img src="./images/bg_2.jpg" alt="image2" loading="lazy" class="image2 rounded-5">
+                </figure>
+                <div class="container" id="task-features">
+                    <h3 class="h3 heading-1">Effortlessly Manage your To-Do List</h3>
+                    <div class="section-1">
+                        <p class="para-2 user-select-auto">With our user-friendly interface, you can add tasks very easily—just type and click to add. The process of editing task details is easy, just with a click to modify the names, descriptions, or deadlines. Removing unnecessary tasks keeps your workspace organized and focused. You can reorder tasks using the drag-and-drop feature, based on priority or due date, in order to better manage your time and stay on track</p>
+                    </div>
+                </div>
+            </div>
+            <div class="progresstracking-and-image">
+                <div class="container" id="progress-tracking">
+                    <h3 class="h3 heading-1">Visualize Your Achievements</h3>
+                    <div class="section-1">
+                        <p class="para-3 user-select-auto">This has visual tools that help with tracking productivity using progress bars, check marks, or colored status indicators. A completed task will have the "line-through" style and be moved into a "Completed Tasks" section, which provides the record of accomplishments. Productivity patterns show up in charts showing tasks completed over time, aiding patterns and areas for improvement that can be set to set more effective goals. You can track daily, weekly, or monthly accomplishments and adjust your goals accordingly. Tracking streaks of completed tasks and milestones keeps you going and motivated to maintain productivity and achieve more significant accomplishments.</p>
+                    </div>
+                </div>
+                <figure>
+                    <img src="./images/bg_3.jpg" alt="image3" loading="lazy" class="image3 rounded-5">
+                </figure>
+            </div>
+            <div class="customizepriorities-and-image">
+                <figure>
+                    <img src="./images/bg_4.jpg" alt="image4" loading="lazy" class="image4 rounded-5">
+                </figure>
+                <div class="container" id="#customize-priority">
+                    <h3 class="h3 heading-1"> Focus on What Matters the Most</h3>
+                    <div class="section-2">
+                        <p class="para-4 user-select-auto">The app makes the management of tasks even more efficient with AI algorithms that learn from the user. It can propose future tasks, suggest repeated activities, and allow users to create tasks simply by speaking or typing. For example, a user can say, "Finish the report by Friday at 3 PM," and the app will automatically analyze and set the task's details. Based on the usage patterns, productivity advice like recommending break times, sequence of tasks, and feasible deadlines is also available on AI. Smart notifications at the desktop based on the task prioritization of a user further help to maintain their track and their productivity level.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="aifeatures-and-image">
+                <div class="container" id="ai-features">
+                    <h3 class="h3 heading-1">Smart Task Categorization: Organize & Achieve More</h3>
+                    <div class="section-1">
+                        <p class="para-5 user-select-auto">Smart Task Categorization is an AI-powered system that classifies tasks intelligently, based on the context, keywords, and priority. Whether it is health-related reminders, work assignments, education tasks, or household chores, this system automatically categorizes tasks, saving time and enhancing productivity. It does this by using Natural Language Processing and pattern recognition to ensure that the tasks are sorted accurately, allowing users to focus on what matters most.</p>
+                    </div>
+                </div>
+                <figure>
+                    <img src="./images/categorization.jpg" alt="image5" loading="lazy" class="image5 rounded-5">
+                </figure>
+            </div>
+            <button class="btn btn-success p-3 rounded-2 fw-bold fs-6"><a href="sign_in.html" class="text-decoration-none text-light">Begin by Adding Your Task</a></button>
+        </div>
+    </main>
+    <footer class="footer mt-3 py-3 bg-dark text-light">
+        <div class="container text-center">
+            <p>© 2025 Veluri Niteesh Naidu. All rights reserved.</p>
+            <p>Developed by Veluri Niteesh Naidu</p>
+            <div class="container" id="contact-info">
+                <p>Contact: <a href="tel:9704568432" class="text-light px-2">+919704568432</a><a href="mailto:niteeshveluri653@gmail.com" class="text-light px-2">niteeshveluri653@gmail.com</a></p>
+            </div>
+            <div class="social-icons">
+                <a href="https://github.com/niteesh432" target="_blank" class="text-light mx-2">
+                    <i class="fab fa-github">GitHub</i>
+                </a>
+                <a href="https://www.linkedin.com/in/veluri-niteesh-naidu-9100ab260/" target="_blank" class="text-light mx-2">
+                    <i class="fab fa-linkedin">linkedin</i>
+                </a>
+            </div>
+            <p class="mt-3">
+                This website is designed to help users efficiently manage tasks and improve productivity through AI-powered features like task prioritization, smart reminders, and progress prediction.
+            </p>
+        </div>
+    </footer>    
+    <script src="./js/loading.js"></script>
+    <script src="./js/arrow.js"></script>
+    <script src="./js/front_page_animation.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
