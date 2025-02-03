@@ -182,6 +182,14 @@ async function createOutputMatrix() {
   }
   logOutputMatrix(); */
 
+/*   //log vocabulary of output matrix
+  async function logOutputMatrixVocabulary() {
+    const outputMatrix = await createOutputMatrix();
+    const uniqueValues = [...new Set(outputMatrix)];
+    console.log(uniqueValues);
+  }
+  logOutputMatrixVocabulary(); */
+
 // Splitting the data into training and testing
 async function splitData() {
   const inputMatrix = await createInputMatrix();
@@ -215,31 +223,31 @@ async function createModelEnhanced(inputShape) {
     units: 64, 
     activation: "relu", 
     inputShape: [inputShape],
-    kernelRegularizer: tf.regularizers.l2({ l2: 0.02 })
+    kernelRegularizer: tf.regularizers.l2({ l2: 0.001 })
   }));
   model.add(tf.layers.batchNormalization());
-  model.add(tf.layers.dropout({ rate: 0.5 }));
+  model.add(tf.layers.dropout({ rate: 0.3 }));
 
   model.add(tf.layers.dense({
-    units: 64, 
-    activation: "relu",
-    kernelRegularizer: tf.regularizers.l2({ l2: 0.02 })
-  }));
-  model.add(tf.layers.batchNormalization());
-  model.add(tf.layers.dropout({ rate: 0.5 }));
-
-  /* model.add(tf.layers.dense({
     units: 32, 
     activation: "relu",
     kernelRegularizer: tf.regularizers.l2({ l2: 0.01 })
   }));
   model.add(tf.layers.batchNormalization());
-  model.add(tf.layers.dropout({ rate: 0.5 })); */
+  model.add(tf.layers.dropout({ rate: 0.5 }));
 
-  model.add(tf.layers.dense({ units: 5, activation: "softmax" }));
+  model.add(tf.layers.dense({
+    units: 16, 
+    activation: "relu",
+    kernelRegularizer: tf.regularizers.l2({ l2: 0.01 })
+  }));
+  model.add(tf.layers.batchNormalization());
+  model.add(tf.layers.dropout({ rate: 0.5 }));
+
+  model.add(tf.layers.dense({ units: 7, activation: "softmax" }));
 
   model.compile({
-    optimizer: tf.train.adam(0.002),  // Adjusted learning rate
+    optimizer: tf.train.rmsprop(0.001),  // Adjusted learning rate
     loss: "sparseCategoricalCrossentropy",
     metrics: ["accuracy"],
   });
@@ -459,7 +467,7 @@ async function displayTaskList() {
     taskInput.className = 'form-control remainder-text mb-3';
     taskInput.value = task;
     taskInput.disabled = true;
-    taskInput.style.backgroundColor = `rgba(255, 0, 0, ${(count) / 10})`;
+    taskInput.style.backgroundColor = `rgba(255, 0, 0, ${(count+1) / 10})`;
     count--;
     remainderItem.appendChild(taskInput);
     smartListContainer.appendChild(remainderItem);
