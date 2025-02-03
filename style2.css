@@ -57,20 +57,42 @@ nav :is(a:hover, a:focus) {
     transition: all 0.5s ease;
     text-decoration: underline;
 }
+/* Ensure input field takes available space but doesn't stretch */
+.add-task-input {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 10px;
+    flex-wrap: nowrap; /* Prevents wrapping */
+}
+
+/* Input field should take most of the space */
+.add-task-input .form-floating {
+    flex-grow: 1; /* Makes the input field responsive */
+    min-width: 200px;
+}
+
+/* Button sizing */
+.input-group-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Make sure buttons don’t stretch */
+.date-button, #task-add {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 #add-task-container {
-    width: 30%;
     margin: 1rem auto 2.5rem auto;
     box-shadow: 0.4rem 0.4rem 1.5rem rgba(0, 0, 0, 0.2);
-    /* display: flex;
-    justify-content: center;
-    align-items: center; */
-}
-.add-task-input {
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    border: none;
-    outline: none;
+
 }
 #main-container {
     display: flex;
@@ -91,6 +113,26 @@ nav :is(a:hover, a:focus) {
 .card-header {
     color: #001d3d;
 }
+.status-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the container */
+    gap: 20px; /* Add gap between the cards */
+    margin-bottom: 20px;
+  }
+  
+  .status-container .card {
+    width: 19rem;
+    margin-bottom: 20px;
+  }
+  
+  .status-container .card-title {
+    font-size: 1.25rem; /* Increase font size */
+  }
+  
+  .status-container .card-text {
+    font-size: 1rem; /* Increase font size */
+  }
 .date {
     width: 80px;
     text-align: center;
@@ -193,68 +235,217 @@ nav :is(a:hover, a:focus) {
     background: #f1f1f1;
   }
   
-@media (max-width: 1024px) {
-    .main-heading {
-        font-size: 2.5rem;
+/* header part responsive */
+  @media (max-width: 1200px) {
+    .heading {
+      font-size: 1.75rem;
     }
-    #tasks-list,
-    #progress-graph,
-    #smart-remainders,
-    #progress-prediction {
-        width: 45%;
+  
+    .home-link {
+      font-size: 0.875rem;
     }
-    #add-task-container {
-        width: 40%;
+  }
+  
+  @media (max-width: 992px) {
+    nav {
+      flex-direction: column;
+    }
+  
+    .heading {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  
+    .home-link {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .heading {
+      font-size: 1.25rem;
+    }
+  
+    .home-link {
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .heading {
+      font-size: 1rem;
+    }
+  
+    .home-link {
+      font-size: 0.625rem;
+    }
+  }
+  /* main part responsive */
+  @media (max-width: 1200px) {
+    .card-title {
+      font-size: 1.25rem;
+    }
+  
+    .card-text {
+      font-size: 1rem;
+    }
+  
+    .form-control {
+      font-size: 0.875rem;
+    }
+  
+    .btn {
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .status-container {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .card {
+      width: 100%;
+    }
+  
+    #tasks-list, #progress-graph, #smart-remainders, #smart-categorization {
+      flex: 1 1 100%;
+    }
+  
+    .card-title {
+      font-size: 1.125rem;
+    }
+  
+    .card-text {
+      font-size: 0.875rem;
+    }
+  
+    .form-control {
+      font-size: 0.75rem;
+    }
+  
+    .btn {
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .card-title {
+      font-size: 1rem;
+    }
+  
+    .card-text {
+      font-size: 0.75rem;
+    }
+  
+    .form-control {
+      font-size: 0.625rem;
+    }
+  
+    .btn {
+      font-size: 0.625rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .card-title {
+      font-size: 0.875rem;
+    }
+  
+    .card-text {
+      font-size: 0.625rem;
+    }
+  
+    .form-control {
+      font-size: 0.5rem;
+    }
+  
+    .btn {
+      font-size: 0.5rem;
+    }
+  }
+  /*Footer part responsive*/
+  @media (max-width: 1200px) {
+    .footer p {
+      font-size: 0.875rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 8px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .footer p {
+      font-size: 0.75rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 6px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer p {
+      font-size: 0.625rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 4px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer p {
+      font-size: 0.5rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 2px;
+    }
+  }
+
+  /* Responsive Adjustments */
+@media (max-width: 600px) { /* Small screens */
+    .add-task-input {
+        gap: 5px;
+    }
+
+    .form-floating input {
+        min-width: 150px; /* Prevents excessive shrinking */
     }
 }
-.text-danger {
-    color: red;
+/* For Tablets (768px and above) */
+@media (min-width: 768px) {
+    .add-task-input {
+        gap: 15px; /* More spacing for larger screens */
+    }
+
+    .form-floating input {
+        min-width: 280px;
+    }
 }
-.text-danger{
-    color: black;
+/* For Medium Screens (992px and above) */
+@media (min-width: 992px) {
+    .add-task-input {
+        gap: 20px;
+    }
+
+    .form-floating input {
+        min-width: 350px;
+    }
 }
 
-/* For mobile devices */
-@media (max-width: 768px) {
-    .main-heading {
-        font-size: 2rem;
+/* For Large Screens (1200px and above) */
+@media (min-width: 1200px) {
+    .add-task-input {
+        gap: 25px;
+        max-width: 800px; /* Prevents excessive stretching */
+        margin: 0 auto; /* Center alignment */
     }
-    .header-main{
-        font-size: 1.5rem;
-    }
-    .header-aside {
-        font-size: 1rem;
-    }
-    #tasks-list,
-    #progress-graph,
-    #smart-remainders,
-    #progress-prediction {
-        width: 90%;
-    }
-    #add-task-container {
-        width: 60%;
-    }
-    .heading-container {
-        top: 5%;
-        max-width: 90%;
-    }
-}
 
-/* For small mobile devices */
-@media (max-width: 480px) {
-    .main-heading {
-        font-size: 2rem;
-    }
-    .header-main{
-        font-size: 1.5rem;
-    }
-    .header-aside {
-        font-size: 1rem;
-    }
-    #landing-page-main-heading {
-        top: 60%;
-    }
-    #add-task-container {
-        width: 80%;
+    .form-floating input {
+        min-width: 400px;
     }
 }

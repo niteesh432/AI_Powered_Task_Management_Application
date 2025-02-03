@@ -301,6 +301,9 @@ body {
 }
 .btn {
     opacity: 0;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
 }
 .btn.animate {
     animation: slideIn 0.5s forwards;
@@ -404,64 +407,234 @@ body {
     }
   }
 
-@media (max-width: 1024px) {
-    .main-heading {
-        font-size: 2.5rem;
+ /* Header Part responsive */
+  @media (max-width: 1200px) {
+    #todo-icon {
+      width: 40px;
+      height: 40px;
     }
-    #tasks-list,
-    #progress-graph,
-    #smart-remainders,
-    #progress-prediction {
-        width: 45%;
+  
+    .heading-container h1 {
+      font-size: 2rem;
     }
-    #add-task-container {
-        width: 40%;
+  
+    .heading-container h2 {
+      font-size: 1.5rem;
     }
-}
+  
+    #landing-page-main-heading h2 {
+      font-size: 1.25rem;
+    }
+  
+    #landing-page-main-heading p {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    #todo-icon {
+      width: 35px;
+      height: 35px;
+    }
+  
+    .heading-container h1 {
+      font-size: 1.75rem;
+    }
+  
+    .heading-container h2 {
+      font-size: 1.25rem;
+    }
+  
+    #landing-page-main-heading h2 {
+      font-size: 1rem;
+    }
+  
+    #landing-page-main-heading p {
+      font-size: 0.875rem;
+    }
+  
+    .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #todo-icon {
+      width: 30px;
+      height: 30px;
+    }
+  
+    .heading-container h1 {
+      font-size: 1.5rem;
+    }
+  
+    .heading-container h2 {
+      font-size: 1rem;
+    }
+  
+    #landing-page-main-heading h2 {
+      font-size: 0.875rem;
+    }
+  
+    #landing-page-main-heading p {
+      font-size: 0.75rem;
+    }
+  
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    #todo-icon {
+      width: 25px;
+      height: 25px;
+    }
+  
+    .heading-container h1 {
+      font-size: 1.25rem;
+    }
+  
+    .heading-container h2 {
+      font-size: 0.875rem;
+    }
+  
+    #landing-page-main-heading h2 {
+      font-size: 0.75rem;
+    }
+  
+    #landing-page-main-heading p {
+      font-size: 0.625rem;
+    }
+  
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.625rem;
+    }
+  }
 
-/* For mobile devices */
-@media (max-width: 768px) {
-    .main-heading {
-        font-size: 2rem;
+  /* Main part responsive */
+  @media (max-width: 1200px) {
+    h3.heading-1 {
+      font-size: 1.75rem;
     }
-    .header-main{
-        font-size: 1.5rem;
+  
+    .section-1, .section-2 {
+      font-size: 0.875rem;
     }
-    .header-aside {
-        font-size: 1rem;
+  
+    .btn {
+      padding: 1rem 2rem;
+      font-size: 1rem;
     }
-    #tasks-list,
-    #progress-graph,
-    #smart-remainders,
-    #progress-prediction {
-        width: 90%;
+  }
+  
+  @media (max-width: 992px) {
+    .info-and-image, .basicfeatures-and-image, .progresstracking-and-image, .customizepriorities-and-image, .aifeatures-and-image {
+      flex-direction: column;
     }
-    #add-task-container {
-        width: 60%;
+    .image1,.image2,.image3,.image4,.image5 {
+        margin: 10px 70% 10px 70%;
+      }
+  
+    figure {
+      order: -1; /* Ensure the image comes before the paragraph */
     }
-    .heading-container {
-        top: 5%;
-        max-width: 90%;
+  
+    h3.heading-1 {
+      font-size: 1.5rem;
     }
-}
+  
+    .section-1, .section-2 {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 0.75rem 1.5rem;
+      font-size: 0.875rem;
+    }
+  }
+  
+  @media (max-width: 768px) {
 
-/* For small mobile devices */
-@media (max-width: 480px) {
-    .main-heading {
-        font-size: 2rem;
+    .image1,.image2,.image3,.image4,.image5 {
+      margin: 10px 50% 10px 50%;
     }
-    .header-main{
-        font-size: 1.5rem;
+    
+    h3.heading-1 {
+      font-size: 1.25rem;
     }
-    .header-aside {
-        font-size: 1rem;
+  
+    .section-1, .section-2 {
+      font-size: 1rem;
     }
-    #landing-page-main-heading {
-        top: 60%;
+  
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.75rem;
     }
-    #add-task-container {
-        width: 80%;
+  }
+  
+  @media (max-width: 576px) {
+    h3.heading-1 {
+      font-size: 1rem;
     }
-}
+  
+    .section-1, .section-2 {
+      font-size: 1rem;
+    }
+  
+    .btn {
+      padding: 0.5rem 1rem;
+      font-size: 0.625rem;
+    }
+  }
 
+  /* Footer Part responsive */
+  @media (max-width: 1200px) {
+    .footer p {
+      font-size: 0.875rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 8px;
+    }
+  }
+  
+  @media (max-width: 992px) {
+    .footer p {
+      font-size: 1rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 6px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .footer p {
+      font-size: 1rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 4px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .footer p {
+      font-size: 0.75rem;
+    }
+  
+    .footer .social-icons a {
+      margin: 0 2px;
+    }
+  }
 
