@@ -467,7 +467,7 @@ async function displayTaskList() {
     taskInput.className = 'form-control remainder-text mb-3';
     taskInput.value = task;
     taskInput.disabled = true;
-    taskInput.style.backgroundColor = `rgba(255, 0, 0, ${(count+1) / 10})`;
+    taskInput.style.backgroundColor = `rgba(255, 0, 0, ${(count) / 10})`;
     count--;
     remainderItem.appendChild(taskInput);
     smartListContainer.appendChild(remainderItem);
