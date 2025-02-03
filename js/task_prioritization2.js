@@ -444,41 +444,47 @@ async function displayTaskList() {
   /* console.log(tasksPriority) */
 
   // Combine tasks and priorities into an array of objects
-  const tasksWithPriority = tasksPriority.map(task => {
-    const [taskDescription,taskDate, priority] = task.split(' - ');
-    return { task: taskDescription,date:taskDate, priority: parseInt(priority, 10) };
-  });
+const tasksWithPriority = tasksPriority.map(task => {
+  const [taskDescription, taskDate, priority] = task.split(' - ');
+  const dueDays = getDueDays(taskDate); // Assuming getDueDays is a function that calculates due days
+  return { task: taskDescription, date: taskDate, priority: parseInt(priority, 6), dueDays: dueDays };
+});
 
-  // Sort the array based on priority
-  tasksWithPriority.sort((a, b) => a.priority - b.priority);
-  console.log(tasksWithPriority);
+// Sort the array based on priority and due days
+tasksWithPriority.sort((a, b) => {
+  if (a.priority === b.priority) {
+    return a.dueDays - b.dueDays; // Sort by due days if priorities are equal
+  }
+  return a.priority - b.priority; // Sort by priority
+});
+/* console.log(tasksWithPriority); */
 
-  // Clear the container before appending sorted tasks
-  smartListContainer.innerHTML = '';
+// Clear the container before appending sorted tasks
+smartListContainer.innerHTML = '';
 
-  let count = tasksWithPriority.length;
-  // Display the sorted tasks
-  tasksWithPriority.forEach(({ task, priority }) => {
-    if (task.trim() === "") return;
-    const remainderItem = document.createElement('div');
-    remainderItem.className = 'input-group remainder-item';
-    const taskInput = document.createElement('input');
-    taskInput.type = 'text';
-    taskInput.className = 'form-control remainder-text mb-3';
-    taskInput.value = task;
-    taskInput.disabled = true;
-    taskInput.style.backgroundColor = `rgba(255, 0, 0, ${(count) / 10})`;
-    count--;
-    remainderItem.appendChild(taskInput);
-    smartListContainer.appendChild(remainderItem);
-  });
-  const remainderElements = document.querySelectorAll('.remainder-item')
-  /* console.log(remainderElements) */
-  const today = new Date();
-  const previousDay = new Date(today);
-  previousDay.setDate(today.getDate() - 1);
-  previousDay.setHours(11, 59, 59, 999);
-  /* console.log(previousDay) */
+let count = tasksWithPriority.length;
+// Display the sorted tasks
+tasksWithPriority.forEach(({ task, priority, dueDays }) => {
+  if (task.trim() === "") return;
+  const remainderItem = document.createElement('div');
+  remainderItem.className = 'input-group remainder-item';
+  const taskInput = document.createElement('input');
+  taskInput.type = 'text';
+  taskInput.className = 'form-control remainder-text mb-3';
+  taskInput.value = task;
+  taskInput.disabled = true;
+  taskInput.style.backgroundColor = `rgba(255, 0, 0, ${(count) / 10})`;
+  count--;
+  remainderItem.appendChild(taskInput);
+  smartListContainer.appendChild(remainderItem);
+});
+const remainderElements = document.querySelectorAll('.remainder-item')
+/* console.log(remainderElements) */
+const today = new Date();
+const previousDay = new Date(today);
+previousDay.setDate(today.getDate() - 1);
+previousDay.setHours(11, 59, 59, 999);
+/* console.log(previousDay) */
   tasksWithPriority.forEach((task, index) => {
     /* console.log(task) */
     const taskDate = task['date']
