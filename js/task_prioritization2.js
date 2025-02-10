@@ -289,7 +289,7 @@ async function loadModel() {
 }
 async function saveModel() {
     const model = await testModel();
-    await model.save('localstorage://my-model');
+    /* await model.save('localstorage://my-model'); */
     await model.save('downloads://my-prioritization-model');
     console.log('Model saved successfully');
 }
