@@ -281,7 +281,7 @@ async function trainModel() {
 async function loadModel() {
   try {
       const model = await tf.loadLayersModel('./models/my-prioritization-model.json');
-      console.log('Model loaded successfully');
+      /* console.log('Model loaded successfully'); */
       return model;
   } catch (error) {
       console.error('Error loading the model:', error);
@@ -452,7 +452,7 @@ const tasksWithPriority = tasksPriority.map(task => {
 
 // Sort the array based on priority and due days
 tasksWithPriority.sort((a, b) => {
-  if (a.priority === b.priority) {
+  if (a.priority === b.priority || a.priority < b.priority || a.priority > b.priority) {
     return a.dueDays - b.dueDays; // Sort by due days if priorities are equal
   }
   return a.priority - b.priority; // Sort by priority
