@@ -415,6 +415,7 @@ async function taskList() {
     const [taskDescription, taskDate] = task.split(' - ');
     const tasksDate = taskDate;
     const dueDays = parseInt(getDueDays(taskDate));
+    console.log(dueDays);
     const predictedPriority = await predictTaskPriority(model, taskDescription, dueDays);
     tasksPriority.push({ taskDescription,tasksDate, priority: predictedPriority });
   }
@@ -457,7 +458,7 @@ tasksWithPriority.sort((a, b) => {
   }
   return a.priority - b.priority; // Sort by priority
 });
-/* console.log(tasksWithPriority); */
+console.log(tasksWithPriority);
 
 // Clear the container before appending sorted tasks
 smartListContainer.innerHTML = '';
