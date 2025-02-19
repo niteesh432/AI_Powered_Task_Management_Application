@@ -453,7 +453,7 @@ const tasksWithPriority = tasksPriority.map(task => {
 
 // Sort the array based on priority and due days
 tasksWithPriority.sort((a, b) => {
-  if (a.priority === b.priority || a.priority < b.priority || a.priority > b.priority) {
+  if ((a.priority === b.priority || a.priority < b.priority || a.priority > b.priority) && a.dueDays !== b.dueDays) {
     return a.dueDays - b.dueDays; // Sort by due days if priorities are equal
   }
   return a.priority - b.priority; // Sort by priority
