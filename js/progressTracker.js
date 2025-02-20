@@ -100,7 +100,7 @@ const calculateProgress = () => {
     // Create a Date object
     const taskDateObj = new Date(formattedDate).toLocaleDateString("en-GB");
     /* console.log(taskDateObj) */
-    return taskDescription.startsWith("✔ ") && taskDateObj === today; // Check both completion and date match
+    return (taskDescription.startsWith("✔ ") && taskDateObj === today) || (taskDescription.startsWith("✔ ") && taskDateObj > today) ; // Check both completion and date match
   });
 
   /* console.log("Completed tasks today:", completedToday); */

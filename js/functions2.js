@@ -350,9 +350,9 @@ const dateHighlighlighting = () => {
     taskDateObj.setHours(0, 0, 0, 0);
     /* console.log(taskDateObj) */
     if(!taskDescription.startsWith("✔") && taskDateObj < previousDay) {
-      console.log('Task is overdue:', task);
+      /* console.log('Task is overdue:', task); */
       const dateElement = taskElements[index]?.querySelector('.date');
-      console.log(dateElement)
+      /* console.log(dateElement) */
       if (dateElement) {
         dateElement.classList.remove('text-dark');
         dateElement.classList.add('text-danger', 'fw-bold');
