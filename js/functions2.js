@@ -413,6 +413,39 @@ const hideCompletedTasks = () => {
   });
 };
 
+function dateSorting() {
+  const tasks = getTasksFromLocalStorage();
+  console.log(tasks);
+
+  // Map of month names to numbers
+  const monthMap = {
+    "Jan": 0, "Feb": 1, "Mar": 2, "Apr": 3, "May": 4, "Jun": 5,
+    "Jul": 6, "Aug": 7, "Sep": 8, "Oct": 9, "Nov": 10, "Dec": 11
+  };
+
+  // Function to parse the task date
+  const parseTaskDate = (taskDate) => {
+    const currentYear = new Date().getFullYear(); // Get the current year
+    const [day, month] = taskDate.split(" "); // ["05", "Dec"]
+    const formattedDate = `${currentYear}-${String(monthMap[month] + 1).padStart(2, "0")}-${day.padStart(2, "0")}`;
+    return new Date(formattedDate);
+  };
+
+  // Sort tasks based on the parsed dates
+  const sortedTasks = tasks.sort((a, b) => {
+    const [, taskDateA] = a.split(' - ');
+    const [, taskDateB] = b.split(' - ');
+    const dateA = parseTaskDate(taskDateA);
+    const dateB = parseTaskDate(taskDateB);
+    return dateA - dateB;
+  });
+
+  console.log(sortedTasks);
+  saveTasksToLocalStorage(sortedTasks);
+  renderTasks();
+  hideCompletedTasks();
+}
+
 function completeOrder() {
   const tasks = getTasksFromLocalStorage();
   const completedTasks = tasks.filter(task => task.startsWith('✔ '));
@@ -428,6 +461,7 @@ function completeOrder() {
 document.addEventListener('DOMContentLoaded', () => {
   renderTasks();
   hideCompletedTasks();
+  dateSorting();
   completeOrder();
   reOrderTasks();
   scheduleWeeklyCleanup();
