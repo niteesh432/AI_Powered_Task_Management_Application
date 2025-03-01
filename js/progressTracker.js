@@ -72,14 +72,16 @@ const getWeekLabels = () => {
 
 /* // Example usage:
 console.log(getWeekLabels()); */
-
+/* const getTasksFromLocalStorage = () => {
+  return JSON.parse(localStorage.getItem('tasks')) || [];
+}; */
 
 const calculateProgress = () => {
   const tasks = getTasksFromLocalStorage(); // Ensure this function retrieves the data correctly
   console.log("All tasks:", tasks);
 
   const today = new Date().toLocaleDateString('en-GB'); // Format today's date as dd/mm/yyyy
-  console.log(today)
+  /* console.log(today)*/
   // Calculate completed tasks for today
   const completedToday = tasks.filter((task) => {
     const [taskDescription, taskDate] = task.split(' - '); // Assuming tasks are stored as "description - date"
@@ -100,10 +102,10 @@ const calculateProgress = () => {
     // Create a Date object
     const taskDateObj = new Date(formattedDate).toLocaleDateString("en-GB");
     console.log(taskDateObj)
-    return (taskDescription.startsWith("✔ ") && taskDateObj === today) || (taskDescription.startsWith("✔ ") && taskDateObj > today) ; 
+    return (taskDescription.startsWith("✔ ") && taskDateObj === today); // Check both completion and date match
   });
 
-  /* console.log("Completed tasks today:", completedToday); */
+  console.log("Completed tasks today:", completedToday);
   return completedToday.length; // Return the count of tasks completed today
 };
 
@@ -114,7 +116,7 @@ const getProgressFromLocalStorage = () => {
   // Ensure the retrieved progress is a nested array
   const formattedProgress = Array.isArray(progress[0]) ? progress : [progress];
 
-  /* console.log("Formatted Progress from localStorage:", formattedProgress); // Debugging line */
+  console.log("Formatted Progress from localStorage:", formattedProgress); // Debugging line
 
   return formattedProgress;
 };
