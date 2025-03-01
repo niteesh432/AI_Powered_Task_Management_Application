@@ -415,7 +415,7 @@ const hideCompletedTasks = () => {
 
 function dateSorting() {
   const tasks = getTasksFromLocalStorage();
-  console.log(tasks);
+  /* console.log(tasks); */
 
   // Map of month names to numbers
   const monthMap = {
@@ -440,7 +440,7 @@ function dateSorting() {
     return dateA - dateB;
   });
 
-  console.log(sortedTasks);
+  /* console.log(sortedTasks); */
   saveTasksToLocalStorage(sortedTasks);
   renderTasks();
   hideCompletedTasks();
