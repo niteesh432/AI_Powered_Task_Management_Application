@@ -80,6 +80,7 @@ const calculateProgress = () => {
 
   const today = new Date().toLocaleDateString('en-GB'); // Format today's date as dd/mm/yyyy
   /* console.log(today)*/
+  
   // Calculate completed tasks for today
   const completedToday = tasks.filter((task) => {
     const [taskDescription, taskDate] = task.split(' - '); // Assuming tasks are stored as "description - date"
@@ -95,28 +96,16 @@ const calculateProgress = () => {
     const [day, month] = taskDate.split(" "); // ["05", "Dec"]
 
     // Format the date as yyyy-mm-dd
-    const formattedDate = `${currentYear}-${monthMap[month]+1}-${day.padStart(2, "0")}`;
+    const formattedDate = `${currentYear}-${monthMap[month] + 1}-${day.padStart(2, "0")}`;
 
     // Create a Date object
     const taskDateObj = new Date(formattedDate).toLocaleDateString("en-GB");
     /* console.log(taskDateObj) */
-    return (taskDescription.startsWith("✔ ") && taskDateObj === today) || (taskDescription.startsWith("✔ ") && taskDateObj > today) ; // Check both completion and date match
+    return taskDescription.startsWith("✔ ") && taskDateObj === today; // Check both completion and date match
   });
 
   /* console.log("Completed tasks today:", completedToday); */
   return completedToday.length; // Return the count of tasks completed today
-};
-
-// Retrieve progress from localStorage (an array of percentages)
-const getProgressFromLocalStorage = () => {
-  const progress = JSON.parse(localStorage.getItem("weekProgress")) || [0, 0, 0, 0, 0, 0, 0];
-  
-  // Ensure the retrieved progress is a nested array
-  const formattedProgress = Array.isArray(progress[0]) ? progress : [progress];
-
-  /* console.log("Formatted Progress from localStorage:", formattedProgress); // Debugging line */
-
-  return formattedProgress;
 };
 
 /* const progress1 = getProgressFromLocalStorage()
@@ -153,12 +142,12 @@ const resetWeeklyProgressIfNeeded = () => {
 
 
 
-const saveDailyProgress = (completedTasks, totalTasks) => {
+const saveDailyProgress = () => {
   // Reset weekly progress if a new week has started
   resetWeeklyProgressIfNeeded();
 
   // Calculate the progress percentage
-  const percentage = calculateProgress(completedTasks, totalTasks);
+  const completedTasks = calculateProgress();
 
   // Format today's date as "D MMM"
   const today = new Date();
@@ -168,7 +157,7 @@ const saveDailyProgress = (completedTasks, totalTasks) => {
   const dateLabel = `${day} ${month}`;
 
   // Save the progress percentage for the specific date
-  saveProgress(dateLabel, percentage);
+  saveProgress(dateLabel, completedTasks);
 };
 
 
