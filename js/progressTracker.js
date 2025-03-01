@@ -81,7 +81,7 @@ const calculateProgress = () => {
   console.log("All tasks:", tasks);
 
   const today = new Date().toLocaleDateString('en-GB'); // Format today's date as dd/mm/yyyy
-  /* console.log(today)*/
+  console.log(today)
   // Calculate completed tasks for today
   const completedToday = tasks.filter((task) => {
     const [taskDescription, taskDate] = task.split(' - '); // Assuming tasks are stored as "description - date"
