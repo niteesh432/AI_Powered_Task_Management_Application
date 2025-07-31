@@ -1,40 +1,131 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Niteesh Naidu" />
-    <meta name="description" content="Creating a To-Do-List using HTML, CSS, JavaScript" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-  <link rel="icon" href="./images/icon.png" type="image/x-icon" />
-  <title>Sign in - AI Task Manager</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Login - AI Task Manager</title>
   <link rel="stylesheet" href="sign_in.css">
 </head>
 <body>
-  <div class="background"></div>
   <div class="login-container">
-    <div class="logo">
-      <img src="./images/icon.png" alt="AI Task Manager Logo">
-      <h1>AI Task Manager</h1>
-    </div>
+    <h1>AI Task Manager - Login</h1>
     <form id="login-form">
-      <div class="input-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-      </div>
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Enter your password" required>
-      </div>
-      <button type="submit" class="login">Login</button>
-      <p class="signup-link">Don't have an account? <a href="sign_up.html">Sign up</a></p>
-      <br>
-      <p><b>Note: </b>The tasks are taken from your respective device and will not appear when logged in from another device.</p>
+      <input type="email" id="email" placeholder="Email" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <button type="submit">Login</button>
     </form>
+    <button id="google-login">Sign in with Google</button><br><br>
+    <button id="forgot-password">Forgot Password</button>
+    <p>Don't have an account? <a href="sign_up.html">Sign up</a></p>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content" id="modal-content"></div>
+    </div>
   </div>
-  <script src="sign_in.js"></script>
-  <script src="./js/loading.js"></script>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyD6XKpF5wc0QEFnz0ZeW2ZHlSSz39WxDFk",
+      authDomain: "ai-powered-task-manageme-7cafb.firebaseapp.com",
+      projectId: "ai-powered-task-manageme-7cafb",
+      storageBucket: "ai-powered-task-manageme-7cafb.firebasestorage.app",
+      messagingSenderId: "1057640651107",
+      appId: "1:1057640651107:web:32de5b3c52cc90c9401b56",
+      measurementId: "G-G8X2T7XBWH"
+    };
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <script>
+    const modal = document.getElementById("modal");
+    const modalContent = document.getElementById("modal-content");
+
+    function showModal(message) {
+      modalContent.innerText = message;
+      modal.classList.remove("hidden");
+      setTimeout(() => modal.classList.add("hidden"), 3000);
+    }
+
+    document.getElementById("login-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+
+      try {
+        const result = await firebase.auth().signInWithEmailAndPassword(email, password);
+        if (!result.user.emailVerified) {
+          showModal("Please verify your email before logging in.");
+          await firebase.auth().signOut();
+          return;
+        }
+        showModal("Login successful!");
+        window.location.href = "dashboard.html";
+      } catch (err) {
+        showModal("Login error: " + err.message);
+      }
+    });
+
+    document.getElementById("google-login").addEventListener("click", async () => {
+      const provider = new firebase.auth.GoogleAuthProvider();
+      try {
+        const result = await firebase.auth().signInWithPopup(provider);
+        showModal("Google sign-in successful!");
+        window.location.href = "dashboard.html";
+      } catch (err) {
+        showModal("Google login error: " + err.message);
+      }
+    });
+
+    document.getElementById("forgot-password").addEventListener("click", async () => {
+      const email = prompt("Enter your email to reset password:");
+      if (!email) return;
+      try {
+        await firebase.auth().sendPasswordResetEmail(email);
+        showModal("Password reset link sent to your email.");
+      } catch (err) {
+        showModal("Reset error: " + err.message);
+      }
+    });
+  </script>
+  <style>
+    .modal {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #eee;
+      padding: 20px;
+      border: 1px solid #333;
+      z-index: 100;
+      border-radius: 5px;
+    }
+    .hidden { display: none; }
+  </style>
+  <div id="modal" class="modal hidden">
+  <div id="modal-content" class="modal-content"></div>
+</div>
+
+<style>
+  .modal {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
+
 </body>
 </html>

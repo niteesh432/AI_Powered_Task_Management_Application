@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+</head>
+<body>
+  <h1>Welcome to AI Task Manager!</h1>
+  <button id="logout">Logout</button>
+
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "YOUR_API_KEY",
+      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
+      projectId: "YOUR_PROJECT_ID",
+      appId: "YOUR_APP_ID"
+    };
+    firebase.initializeApp(firebaseConfig);
+
+    firebase.auth().onAuthStateChanged((user) => {
+      if (!user || !user.emailVerified) {
+        alert("You must be logged in with a verified email.");
+        window.location.href = "sign_in.html";
+      }
+    });
+
+    document.getElementById("logout").addEventListener("click", async () => {
+      await firebase.auth().signOut();
+      alert("Logged out.");
+      window.location.href = "sign_in.html";
+    });
+  </script>
+</body>
+</html>

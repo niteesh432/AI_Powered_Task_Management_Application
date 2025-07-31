@@ -1,47 +1,108 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta name="author" content="Niteesh Naidu" />
-    <meta name="description" content="Creating a To-Do-List using HTML, CSS, JavaScript" />
-    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-    <meta http-equiv="Pragma" content="no-cache" />
-    <meta http-equiv="Expires" content="0" />
-  <link rel="icon" href="./images/icon.png" type="image/x-icon" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Sign up - AI Task Manager</title>
   <link rel="stylesheet" href="sign_up.css">
 </head>
 <body>
-  <div class="background"></div>
   <div class="signup-container">
-    <div class="logo">
-      <img src="./images/icon.png" alt="AI Task Manager Logo">
-      <h1>AI Task Manager</h1>
-    </div>
+    <h1>AI Task Manager - Sign Up</h1>
     <form id="signup-form">
-      <div class="input-group">
-        <label for="name">Full Name</label>
-        <input type="text" id="name" name="name" placeholder="Enter your full name" required>
-      </div>
-      <div class="input-group">
-        <label for="email">Email</label>
-        <input type="email" id="email" name="email" placeholder="Enter your email" required>
-      </div>
-      <div class="input-group">
-        <label for="password">Password</label>
-        <input type="password" id="password" name="password" placeholder="Create a password" required>
-      </div>
-      <div class="input-group">
-        <label for="confirm-password">Confirm Password</label>
-        <input type="password" id="confirm-password" name="confirm-password" placeholder="Confirm your password" required>
-      </div>
-      <button type="submit" class="login">Sign up</button>
-      <p class="login-link">Already have an account? <a href="sign_in.html">Log in</a></p>
-      <p><b>Note: </b>The tasks are taken from your respective device and will not appear when logged in from another device.</p>
+      <input type="text" id="name" placeholder="Full Name" required><br>
+      <input type="email" id="email" placeholder="Email" required><br>
+      <input type="password" id="password" placeholder="Password" required><br>
+      <input type="password" id="confirm-password" placeholder="Confirm Password" required><br>
+      <button type="submit">Sign Up</button>
     </form>
+    <p>Already have an account? <a href="sign_in.html">Login</a></p>
+
+    <!-- Modal -->
+    <div id="modal" class="modal hidden">
+      <div class="modal-content" id="modal-content"></div>
+    </div>
   </div>
-  <script src="sign_up.js"></script>
-  <script src="./js/loading.js"></script>
+
+  <!-- Firebase SDK -->
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+  <script>
+    const firebaseConfig = {
+      apiKey: "AIzaSyD6XKpF5wc0QEFnz0ZeW2ZHlSSz39WxDFk",
+      authDomain: "ai-powered-task-manageme-7cafb.firebaseapp.com",
+      projectId: "ai-powered-task-manageme-7cafb",
+      storageBucket: "ai-powered-task-manageme-7cafb.firebasestorage.app",
+      messagingSenderId: "1057640651107",
+      appId: "1:1057640651107:web:32de5b3c52cc90c9401b56",
+      measurementId: "G-G8X2T7XBWH"
+    };
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+  <script>
+    const modal = document.getElementById("modal");
+    const modalContent = document.getElementById("modal-content");
+
+    function showModal(message) {
+      modalContent.innerText = message;
+      modal.classList.remove("hidden");
+      setTimeout(() => modal.classList.add("hidden"), 3000);
+    }
+
+    document.getElementById("signup-form").addEventListener("submit", async (e) => {
+      e.preventDefault();
+      const name = document.getElementById("name").value;
+      const email = document.getElementById("email").value;
+      const password = document.getElementById("password").value;
+      const confirm = document.getElementById("confirm-password").value;
+
+      if (password !== confirm) return showModal("Passwords do not match!");
+
+      try {
+        const result = await firebase.auth().createUserWithEmailAndPassword(email, password);
+        await result.user.updateProfile({ displayName: name });
+        await result.user.sendEmailVerification();
+        showModal("Signup successful! Verification email sent. Please verify.");
+      } catch (err) {
+        showModal("Error: " + err.message);
+      }
+    });
+  </script>
+  <style>
+    .modal {
+      position: fixed;
+      top: 20px;
+      left: 50%;
+      transform: translateX(-50%);
+      background: #eee;
+      padding: 20px;
+      border: 1px solid #333;
+      z-index: 100;
+      border-radius: 5px;
+    }
+    .hidden { display: none; }
+  </style>
+  <div id="modal" class="modal hidden">
+  <div id="modal-content" class="modal-content"></div>
+</div>
+
+<style>
+  .modal {
+    position: fixed;
+    top: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #fff;
+    padding: 20px;
+    border: 1px solid #aaa;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+    z-index: 1000;
+    border-radius: 5px;
+  }
+  .hidden {
+    display: none;
+  }
+</style>
 </body>
 </html>
