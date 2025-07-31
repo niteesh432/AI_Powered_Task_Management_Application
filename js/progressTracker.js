@@ -72,14 +72,16 @@ const getWeekLabels = () => {
 
 /* // Example usage:
 console.log(getWeekLabels()); */
-
+/* const getTasksFromLocalStorage = () => {
+  return JSON.parse(localStorage.getItem('tasks')) || [];
+}; */
 
 const calculateProgress = () => {
   const tasks = getTasksFromLocalStorage(); // Ensure this function retrieves the data correctly
   /* console.log("All tasks:", tasks); */
 
   const today = new Date().toLocaleDateString('en-GB'); // Format today's date as dd/mm/yyyy
-  /* console.log(today)*/
+  /* console.log(today) */
   // Calculate completed tasks for today
   const completedToday = tasks.filter((task) => {
     const [taskDescription, taskDate] = task.split(' - '); // Assuming tasks are stored as "description - date"
@@ -100,7 +102,7 @@ const calculateProgress = () => {
     // Create a Date object
     const taskDateObj = new Date(formattedDate).toLocaleDateString("en-GB");
     /* console.log(taskDateObj) */
-    return (taskDescription.startsWith("✔ ") && taskDateObj === today) || (taskDescription.startsWith("✔ ") && taskDateObj > today) ; // Check both completion and date match
+    return (taskDescription.startsWith("✔ ") && taskDateObj === today); // Check both completion and date match
   });
 
   /* console.log("Completed tasks today:", completedToday); */
