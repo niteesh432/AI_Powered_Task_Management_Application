@@ -2,11 +2,249 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Login - AI Task Manager</title>
-  <link rel="stylesheet" href="sign_in.css">
+  <style>
+    /* General Reset */
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    /* Body and Background */
+    body {
+      font-family: 'Segoe UI', 'Arial', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      background: #10151e;
+      position: relative;
+      overflow: hidden;
+      color: #f3f5f8;
+    }
+
+    /* Animated Night Sky Gradient Background */
+    .animated-bg {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw;
+      height: 100vh;
+      z-index: -2;
+      background: linear-gradient(120deg, #181c29 0%, #232944 100%);
+      animation: bgGradient  ease-in-out infinite alternate;
+    }
+    @keyframes bgGradient {
+      0% { background: linear-gradient(120deg, #181c29 0%, #232944 100%); }
+      100% { background: linear-gradient(120deg, #2a3150 0%, #12161f 100%); }
+    }
+
+    /* Stars Container */
+    .stars {
+      position: fixed;
+      top: 0; left: 0;
+      width: 100vw; height: 100vh;
+      z-index: -1;
+      pointer-events: none;
+      background: transparent;
+    }
+
+    /* Individual stars */
+    .stars span {
+      position: absolute;
+      border-radius: 50%;
+      background: rgba(255, 255, 255, 0.7);
+      opacity: 0.6;
+      box-shadow: 0 0 6px 2px #fff8;
+      animation: twinkle 2.5s linear infinite;
+    }
+
+    /* Positions, sizes, and animation delays for 30 stars */
+    .stars span:nth-child(1) { width: 2px; height: 2px; top: 5%; left: 10%; animation-delay: 0s; }
+    .stars span:nth-child(2) { width: 1.5px; height: 1.5px; top: 20%; left: 40%; animation-delay: 0.4s; }
+    .stars span:nth-child(3) { width: 2.5px; height: 2.5px; top: 35%; left: 70%; animation-delay: 0.8s; }
+    .stars span:nth-child(4) { width: 1.3px; height: 1.3px; top: 50%; left: 85%; animation-delay: 1.2s; }
+    .stars span:nth-child(5) { width: 1.7px; height: 1.7px; top: 65%; left: 60%; animation-delay: 1.6s; }
+    .stars span:nth-child(6) { width: 2px; height: 2px; top: 75%; left: 35%; animation-delay: 2s; }
+    .stars span:nth-child(7) { width: 1.8px; height: 1.8px; top: 80%; left: 20%; animation-delay: 2.4s; }
+    .stars span:nth-child(8) { width: 2.2px; height: 2.2px; top: 85%; left: 50%; animation-delay: 2.8s; }
+    .stars span:nth-child(9) { width: 1.4px; height: 1.4px; top: 90%; left: 75%; animation-delay: 3.2s; }
+    .stars span:nth-child(10) { width: 2px; height: 2px; top: 15%; left: 15%; animation-delay: 3.6s; }
+    .stars span:nth-child(11) { width: 1.3px; height: 1.3px; top: 25%; left: 90%; animation-delay: 4s; }
+    .stars span:nth-child(12) { width: 2.5px; height: 2.5px; top: 30%; left: 30%; animation-delay: 4.4s; }
+    .stars span:nth-child(13) { width: 1.5px; height: 1.5px; top: 45%; left: 55%; animation-delay: 4.8s; }
+    .stars span:nth-child(14) { width: 1.8px; height: 1.8px; top: 55%; left: 25%; animation-delay: 5.2s; }
+    .stars span:nth-child(15) { width: 1.6px; height: 1.6px; top: 60%; left: 75%; animation-delay: 5.6s; }
+    .stars span:nth-child(16) { width: 2.3px; height: 2.3px; top: 82%; left: 10%; animation-delay: 6s; }
+    .stars span:nth-child(17) { width: 1.2px; height: 1.2px; top: 70%; left: 90%; animation-delay: 6.4s; }
+    .stars span:nth-child(18) { width: 2.1px; height: 2.1px; top: 77%; left: 50%; animation-delay: 6.8s; }
+    .stars span:nth-child(19) { width: 1.4px; height: 1.4px; top: 15%; left: 80%; animation-delay: 7.2s; }
+    .stars span:nth-child(20) { width: 2px; height: 2px; top: 42%; left: 33%; animation-delay: 7.6s; }
+    .stars span:nth-child(21) { width: 1.6px; height: 1.6px; top: 68%; left: 44%; animation-delay: 8s; }
+    .stars span:nth-child(22) { width: 2.4px; height: 2.4px; top: 56%; left: 79%; animation-delay: 8.4s; }
+    .stars span:nth-child(23) { width: 1.3px; height: 1.3px; top: 12%; left: 53%; animation-delay: 8.8s; }
+    .stars span:nth-child(24) { width: 2.2px; height: 2.2px; top: 18%; left: 66%; animation-delay: 9.2s; }
+    .stars span:nth-child(25) { width: 1.5px; height: 1.5px; top: 85%; left: 22%; animation-delay: 9.6s; }
+    .stars span:nth-child(26) { width: 1.7px; height: 1.7px; top: 27%; left: 42%; animation-delay: 10s; }
+    .stars span:nth-child(27) { width: 2.3px; height: 2.3px; top: 33%; left: 70%; animation-delay: 10.4s; }
+    .stars span:nth-child(28) { width: 1.9px; height: 1.9px; top: 60%; left: 80%; animation-delay: 10.8s; }
+    .stars span:nth-child(29) { width: 1.1px; height: 1.1px; top: 78%; left: 45%; animation-delay: 11.2s; }
+    .stars span:nth-child(30) { width: 1.6px; height: 1.6px; top: 90%; left: 60%; animation-delay: 11.6s; }
+
+    /* Twinkle animation */
+    @keyframes twinkle {
+      0%, 100% { opacity: 0.3; }
+      50% { opacity: 1; }
+    }
+
+    /* Login container */
+    .login-container {
+      background: rgba(20, 23, 32, 0.97);
+      padding: 2.5rem 2rem 2.2rem 2rem;
+      border-radius: 15px;
+      box-shadow: 0 6px 30px 0 #0008;
+      text-align: center;
+      min-width: 400px;
+      max-width: 400px;
+      width: 100%;
+      backdrop-filter: blur(4px) saturate(1.2);
+      border: 1px solid #23263a;
+      position: relative;
+      z-index: 10;
+    }
+
+    /* Heading */
+    .login-container h1 {
+      color: #7bb8fa;
+      font-weight: 700;
+      margin-bottom: 1.8rem;
+      letter-spacing: 1px;
+      font-size: 1.7rem;
+    }
+
+    input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 0.6rem 0.7rem;
+    border: 1.5px solid #313958;
+    border-radius: 6px;
+    background: #252c40;
+    color: #f3f5f8;
+    margin-bottom: 1rem;
+    font-size: 0.85rem;
+    outline: none;
+    transition: border-color 0.3s;
+  }
+
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #66aaff;
+    background: #23263a;
+  }
+
+  ::placeholder {
+    color: #b8c3d2;
+    font-size: 0.8rem;
+  }
+
+    button, .google-btn {
+    width: 100%;
+    padding: 0.6rem 0;
+    background: linear-gradient(100deg, #3255a3 30%, #1d90f2 100%);
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
+    cursor: pointer;
+    margin-bottom: 0.7rem;
+    transition: background 0.25s, transform 0.1s;
+    box-shadow: 0 4px 12px -6px #007bff98;
+  }
+
+  button:hover, .google-btn:hover {
+    background: linear-gradient(100deg, #4485ff 10%, #1756b3 100%);
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 8px 22px -3px #27a8ff55;
+  }
+
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #fff;
+    color: #555;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .google-icon {
+    width: 16px;
+    height: 16px;
+  }
+
+    .modal {
+    position: fixed;
+    top: 6%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: linear-gradient(120deg, rgba(28,32,48,0.95), rgba(51,62,92,0.90));
+    padding: 12px 18px;
+    border: 2px solid #4884f3;
+    color: #e4eaff;
+    box-shadow: 0 6px 30px #2272ff48;
+    border-radius: 6px;
+    z-index: 999;
+    font-size: 0.9rem;
+    transition: opacity 0.35s, top 0.35s;
+  }
+
+  .modal.hidden {
+    opacity: 0;
+    pointer-events: none;
+    top: 1%;
+  }
+
+  .login-container p {
+    font-size: 0.85rem;
+    color: #b5c6e7;
+  }
+
+  .login-container a {
+    color: #66aaff;
+    text-decoration: underline;
+    font-weight: 600;
+    font-size: 0.85rem;
+  }
+
+  .login-container a:hover {
+    text-decoration: underline #67aeff78 1px;
+  }
+
+  @media (max-width: 500px) {
+    .login-container {
+      padding: 1.1rem 0.6rem;
+    }
+  }
+
+  </style>
 </head>
 <body>
+
+  <div class="animated-bg"></div>
+
+  <div class="stars">
+    <!-- 30 spans for 30 stars -->
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span>
+  </div>
+
   <div class="login-container">
     <h1>AI Task Manager - Login</h1>
     <form id="login-form">
@@ -14,7 +252,16 @@
       <input type="password" id="password" placeholder="Password" required><br>
       <button type="submit">Login</button>
     </form>
-    <button id="google-login">Sign in with Google</button><br><br>
+    <button id="google-login" class="google-btn" aria-label="Sign in with Google">
+    <svg class="google-icon" xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 48 48">
+      <path fill="#4285F4" d="M24 9.5c3.54 0 6.69 1.36 9.07 3.57l6.77-6.77C34.75 2.88 29.75 1 24 1 14.95 1 7.03 6.85 3.76 14.92l7.89 6.14C13.97 15.12 18.52 9.5 24 9.5z"/>
+      <path fill="#34A853" d="M46.43 24.02c0-1.64-.15-3.22-.43-4.73H24v9.05h12.5c-.54 2.92-2.3 5.41-5.06 7.01v5.81h8.19c4.78-4.41 7.6-10.9 7.6-17.14z"/>
+      <path fill="#FBBC05" d="M11.65 28.3c-.4-1.18-.63-2.44-.63-3.76 0-1.32.23-2.59.63-3.76v-5.82H3.75a22.234 22.234 0 0 0 0 19.28l7.9-5.74z"/>
+      <path fill="#EA4335" d="M24 46.5c6.48 0 11.94-2.14 15.92-5.8l-7.68-5.76c-2.18 1.47-5 2.32-8.24 2.32-5.49 0-10.08-3.5-11.74-8.14H3.75v5.13C7.03 41.15 14.95 46.5 24 46.5z"/>
+    </svg>
+    Sign in with Google
+  </button>
+
     <button id="forgot-password">Forgot Password</button>
     <p>Don't have an account? <a href="sign_up.html">Sign up</a></p>
 
@@ -24,107 +271,73 @@
     </div>
   </div>
 
-  <!-- Firebase SDK -->
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
-  <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
-  <script>
-    const firebaseConfig = {
-      apiKey: "AIzaSyD6XKpF5wc0QEFnz0ZeW2ZHlSSz39WxDFk",
-      authDomain: "ai-powered-task-manageme-7cafb.firebaseapp.com",
-      projectId: "ai-powered-task-manageme-7cafb",
-      storageBucket: "ai-powered-task-manageme-7cafb.firebasestorage.app",
-      messagingSenderId: "1057640651107",
-      appId: "1:1057640651107:web:32de5b3c52cc90c9401b56",
-      measurementId: "G-G8X2T7XBWH"
-    };
-    firebase.initializeApp(firebaseConfig); 
-  </script>
-  <script>
-    const modal = document.getElementById("modal");
-    const modalContent = document.getElementById("modal-content");
+<!-- Firebase and JS code remains unchanged -->
 
-    function showModal(message) {
-      modalContent.innerText = message;
-      modal.classList.remove("hidden");
-      setTimeout(() => modal.classList.add("hidden"), 3000);
-    }
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
+<script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+<script>
+  const firebaseConfig = {
+    apiKey: "AIzaSyD6XKpF5wc0QEFnz0ZeW2ZHlSSz39WxDFk",
+    authDomain: "ai-powered-task-manageme-7cafb.firebaseapp.com",
+    projectId: "ai-powered-task-manageme-7cafb",
+    storageBucket: "ai-powered-task-manageme-7cafb.firebasestorage.app",
+    messagingSenderId: "1057640651107",
+    appId: "1:1057640651107:web:32de5b3c52cc90c9401b56",
+    measurementId: "G-G8X2T7XBWH"
+  };
+  firebase.initializeApp(firebaseConfig);
+</script>
+<script>
+  const modal = document.getElementById("modal");
+  const modalContent = document.getElementById("modal-content");
 
-    document.getElementById("login-form").addEventListener("submit", async (e) => {
-      e.preventDefault();
-      const email = document.getElementById("email").value;
-      const password = document.getElementById("password").value;
-
-      try {
-        const result = await firebase.auth().signInWithEmailAndPassword(email, password);
-        if (!result.user.emailVerified) {
-          showModal("Please verify your email before logging in.");
-          await firebase.auth().signOut();
-          return;
-        }
-        showModal("Login successful!");
-        window.location.href = "dashboard.html";
-      } catch (err) {
-        showModal("Login error: " + err.message);
-      }
-    });
-
-    document.getElementById("google-login").addEventListener("click", async () => {
-      const provider = new firebase.auth.GoogleAuthProvider();
-      try {
-        const result = await firebase.auth().signInWithPopup(provider);
-        showModal("Google sign-in successful!");
-        window.location.href = "dashboard.html";
-      } catch (err) {
-        showModal("Google login error: " + err.message);
-      }
-    });
-
-    document.getElementById("forgot-password").addEventListener("click", async () => {
-      const email = prompt("Enter your email to reset password:");
-      if (!email) return;
-      try {
-        await firebase.auth().sendPasswordResetEmail(email);
-        showModal("Password reset link sent to your email.");
-      } catch (err) {
-        showModal("Reset error: " + err.message);
-      }
-    });
-  </script>
-  <style>
-    .modal {
-      position: fixed;
-      top: 20px;
-      left: 50%;
-      transform: translateX(-50%);
-      background: #eee;
-      padding: 20px;
-      border: 1px solid #333;
-      z-index: 100;
-      border-radius: 5px;
-    }
-    .hidden { display: none; }
-  </style>
-  <div id="modal" class="modal hidden">
-  <div id="modal-content" class="modal-content"></div>
-</div>
-
-<style>
-  .modal {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    padding: 20px;
-    border: 1px solid #aaa;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    z-index: 1000;
-    border-radius: 5px;
+  function showModal(message) {
+    modalContent.innerText = message;
+    modal.classList.remove("hidden");
+    setTimeout(() => modal.classList.add("hidden"), 3000);
   }
-  .hidden {
-    display: none;
-  }
-</style>
+
+  document.getElementById("login-form").addEventListener("submit", async (e) => {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
+    const password = document.getElementById("password").value;
+
+    try {
+      const result = await firebase.auth().signInWithEmailAndPassword(email, password);
+      if (!result.user.emailVerified) {
+        showModal("Please verify your email before logging in.");
+        await firebase.auth().signOut();
+        return;
+      }
+      showModal("Login successful!");
+      window.location.href = "index2.html";
+    } catch (err) {
+      showModal("Login error: " + err.message);
+    }
+  });
+
+  document.getElementById("google-login").addEventListener("click", async () => {
+    const provider = new firebase.auth.GoogleAuthProvider();
+    try {
+      const result = await firebase.auth().signInWithPopup(provider);
+      showModal("Google sign-in successful!");
+      window.location.href = "index2.html";
+    } catch (err) {
+      showModal("Google login error: " + err.message);
+    }
+  });
+
+  document.getElementById("forgot-password").addEventListener("click", async () => {
+    const email = prompt("Enter your email to reset password:");
+    if (!email) return;
+    try {
+      await firebase.auth().sendPasswordResetEmail(email);
+      showModal("Password reset link sent to your email.");
+    } catch (err) {
+      showModal("Reset error: " + err.message);
+    }
+  });
+</script>
 
 </body>
 </html>

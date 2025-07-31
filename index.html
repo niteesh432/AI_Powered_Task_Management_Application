@@ -17,26 +17,32 @@
     <title>To Do List | Check it off and conquer the day!</title>
 </head>
 <body class="js-loading">
+
+  <div class="animated-bg"></div>
+
+  <div class="stars">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
     <header id="landing-page">
-        <div class="header-part positon-relative">
-            <img src="./images/back_2.jpg" class="img-fluid positon-relative" alt="background">
-            <img src="./images/todolist_icon.png" alt="icon" id="todo-icon">
-            <div class="container heading-container animate-pop-in">               
-                <h1 class="h1 welcome-heading">Welcome To</h1>
-                <h2 class="heading1 main-heading h2"><span class="nowrap">AI-Powered Task Management Application</span></h2>
+        <div class="header-part">
+            <img src="./images/new_back_2.png" class="img-fluid" alt="background">
+            <div class="landing-message">
+            <h1 class="welcome-heading">Welcome To</h1>
+            <h2 class="main-heading"><span class="nowrap">AI-Powered Task Management Application</span></h2>
+            <h2 class="header-main"><span class="nowrap">Organize Your Tasks, Simplify Your Life</span></h2>
+            <p class="header-aside"><span class="nowrap">Streamline your workload with a clear, easy-to-use interface</span></p>
+            <button class="btn p-2 rounded-2 fw-bold fs-6"><a href="sign_in.html" class="custom-btn">Begin by Adding Your Task</a></button>
             </div>
-            <div id="landing-page-main-heading">
-                <h2 class="heading4 header-main  animate-pop-in"><span class="nowrap">Organize Your Tasks, Simplify Your Life</span></h2>
-                <p class="heading6 header-aside  animate-pop-in"><span class="nowrap">Streamline your workload with a clear, easy-to-use interface</span></p>
-                <button class="btn btn-success p-3 rounded-2 fw-bold fs-6" id="button">
-                    <a href="sign_in.html" class="text-decoration-none text-light">Begin by Adding Your Task</a>
-                </button>
-            </div>
-        </div>
-        <section class="header-down-arrow">
+            <section class="header-down-arrow">
             <img src="./images/downarrow.png" width="35" alt="downarrow">
-        </section>
+            </section>
+        </div>
     </header>
+
     <main id="main-part">
         <div class="container-fluid rounded-5" id="features">
             <div class="info-and-image rounded-5">
@@ -94,29 +100,39 @@
                     <img src="./images/categorization.jpg" alt="image5" loading="lazy" class="image5 rounded-5">
                 </figure>
             </div>
-            <button class="btn btn-success p-3 rounded-2 fw-bold fs-6"><a href="sign_in.html" class="text-decoration-none text-light">Begin by Adding Your Task</a></button>
+            <button class="btn p-2 rounded-2 fw-bold fs-6"><a href="sign_in.html" class="custom-btn">Begin by Adding Your Task</a></button>
         </div>
     </main>
-    <footer class="footer mt-3 py-3 bg-dark text-light">
-        <div class="container text-center">
-            <p>© 2025 Veluri Niteesh Naidu. All rights reserved.</p>
-            <p>Developed by Veluri Niteesh Naidu</p>
-            <div class="container" id="contact-info">
-                <p>Contact: <a href="tel:9704568432" class="text-light px-2">+919704568432</a><a href="mailto:niteeshveluri653@gmail.com" class="text-light px-2">niteeshveluri653@gmail.com</a></p>
-            </div>
-            <div class="social-icons">
-                <a href="https://github.com/niteesh432" target="_blank" class="text-light mx-2">
-                    <i class="fab fa-github">GitHub</i>
-                </a>
-                <a href="https://www.linkedin.com/in/veluri-niteesh-naidu-9100ab260/" target="_blank" class="text-light mx-2">
-                    <i class="fab fa-linkedin">linkedin</i>
-                </a>
-            </div>
-            <p class="mt-3">
-                This website is designed to help users efficiently manage tasks and improve productivity through AI-powered features like task prioritization, smart reminders, and progress prediction.
-            </p>
+    <footer class="footer mt-4 py-4 bg-dark text-light">
+    <div class="container text-center">
+        <div class="footer-main mb-2">
+        <p class="mb-0">© 2025 Veluri Niteesh Naidu. All rights reserved.</p>
+        <p class="mb-1 small">Developed by Veluri Niteesh Naidu</p>
         </div>
-    </footer>    
+        <div class="footer-contacts mb-2">
+        <a href="tel:9704568432" class="text-light mx-3 small">
+            <i class="fas fa-phone-alt me-1"></i>+91 97045 68432
+        </a>
+        <a href="mailto:niteeshveluri653@gmail.com" class="text-light mx-3 small">
+            <i class="fas fa-envelope me-1"></i>niteeshveluri653@gmail.com
+        </a>
+        </div>
+        <div class="footer-social my-2">
+        <a href="https://github.com/niteesh432" target="_blank" class="text-light fs-4 mx-2" title="GitHub">
+            <i class="fab fa-github"></i>
+        </a>
+        <a href="https://www.linkedin.com/in/veluri-niteesh-naidu-9100ab260/" target="_blank" class="text-light fs-4 mx-2" title="LinkedIn">
+            <i class="fab fa-linkedin"></i>
+        </a>
+        </div>
+        <div class="footer-note mt-3">
+        <p class="mb-0 small text-secondary">
+            This website helps you manage tasks and boost productivity with AI-powered prioritization, reminders, and progress prediction.
+        </p>
+        </div>
+    </div>
+    </footer>
+   
     <script src="./js/loading.js"></script>
     <script src="./js/arrow.js"></script>
     <script src="./js/front_page_animation.js"></script>

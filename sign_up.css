@@ -1,123 +1,232 @@
+/* GENERAL RESET */
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  body {
-    font-family: 'Arial', sans-serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-    overflow: hidden;
-  }
-  .background {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('./images/sign_in_bg.jpg');
-    background-size: cover;
-    background-position: center;
-    filter: blur(20px);
-    z-index: -1;
-  }
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* BODY & BACKGROUND */
+body {
+  font-family: 'Segoe UI', 'Arial', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #10151e;
+  position: relative;
+  overflow: hidden;
+  color: #f3f5f8;
+}
+
+/* Animated Night Sky Gradient Background */
+.animated-bg {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -2;
+  background: linear-gradient(120deg, #181c29 0%, #232944 100%);
+  animation: bgGradient 10s ease-in-out infinite alternate;
+}
+
+@keyframes bgGradient {
+  0% { background: linear-gradient(120deg, #181c29 0%, #232944 100%); }
+  100% { background: linear-gradient(120deg, #2a3150 0%, #12161f 100%); }
+}
+
+/* Subtle moving stars */
+.stars {
+  position: fixed;
+  top: 0; left: 0;
+  width: 100vw;
+  height: 100vh;
+  z-index: -1;
+  pointer-events: none;
+  background: transparent;
+}
+
+.stars span {
+  position: absolute;
+  border-radius: 50%;
+  background: rgba(255,255,255,0.7);
+  opacity: 0.65;
+  box-shadow: 0 0 6px 2px #fff8;
+  animation: twinkle 2.5s linear infinite;
+}
+
+/* Positions and sizes for stars — 30 predefined */
+.stars span:nth-child(1)  { width: 2px;  height: 2px;  top: 13%;  left: 12%;  animation-delay: 0s; }
+.stars span:nth-child(2)  { width: 1.5px; height: 1.5px; top: 40%;  left: 24%;  animation-delay: 0.9s; }
+.stars span:nth-child(3)  { width: 2.5px; height: 2.5px; top: 68%;  left: 70%;  animation-delay: 0.2s; }
+.stars span:nth-child(4)  { width: 1.3px; height: 1.3px; top: 32%;  left: 81%;  animation-delay: 1.2s; }
+.stars span:nth-child(5)  { width: 1.7px; height: 1.7px; top: 53%;  left: 56%;  animation-delay: 0.5s; }
+.stars span:nth-child(6)  { width: 2px;  height: 2px;  top: 84%;  left: 35%;  animation-delay: 0.8s; }
+.stars span:nth-child(7)  { width: 1.8px; height: 1.8px; top: 25%;  left: 65%;  animation-delay: 1.1s; }
+.stars span:nth-child(8)  { width: 2.2px; height: 2.2px; top: 70%;  left: 20%;  animation-delay: 1.4s; }
+.stars span:nth-child(9)  { width: 1.4px; height: 1.4px; top: 15%;  left: 80%;  animation-delay: 0.6s; }
+.stars span:nth-child(10) { width: 2px;  height: 2px;  top: 55%;  left: 15%;  animation-delay: 1.7s; }
+.stars span:nth-child(11) { width: 1.3px; height: 1.3px; top: 75%;  left: 85%;  animation-delay: 2s; }
+.stars span:nth-child(12) { width: 2.5px; height: 2.5px; top: 80%;  left: 40%;  animation-delay: 2.4s; }
+.stars span:nth-child(13) { width: 1.5px; height: 1.5px; top: 30%;  left: 50%;  animation-delay: 1.9s; }
+.stars span:nth-child(14) { width: 1.8px; height: 1.8px; top: 60%;  left: 75%;  animation-delay: 2.2s; }
+.stars span:nth-child(15) { width: 1.6px; height: 1.6px; top: 35%;  left: 35%;  animation-delay: 2.6s; }
+.stars span:nth-child(16) { width: 2.3px; height: 2.3px; top: 85%;  left: 55%;  animation-delay: 2.1s; }
+.stars span:nth-child(17) { width: 1.2px; height: 1.2px; top: 45%;  left: 60%;  animation-delay: 1.3s; }
+.stars span:nth-child(18) { width: 2.1px; height: 2.1px; top: 65%;  left: 80%;  animation-delay: 2.8s; }
+.stars span:nth-child(19) { width: 1.4px; height: 1.4px; top: 20%;  left: 70%;  animation-delay: 0.7s; }
+.stars span:nth-child(20) { width: 2px;  height: 2px;  top: 10%;  left: 40%;  animation-delay: 0.3s; }
+.stars span:nth-child(21) { width: 1.6px; height: 1.6px; top: 50%;  left: 30%;  animation-delay: 2.7s; }
+.stars span:nth-child(22) { width: 2.4px; height: 2.4px; top: 55%;  left: 10%;  animation-delay: 2.3s; }
+.stars span:nth-child(23) { width: 1.3px; height: 1.3px; top: 43%;  left: 90%;  animation-delay: 1.8s; }
+.stars span:nth-child(24) { width: 2.2px; height: 2.2px; top: 78%;  left: 65%;  animation-delay: 2.9s; }
+.stars span:nth-child(25) { width: 1.5px; height: 1.5px; top: 72%;  left: 25%;  animation-delay: 2.5s; }
+.stars span:nth-child(26) { width: 1.7px; height: 1.7px; top: 38%;  left: 15%;  animation-delay: 2.0s; }
+.stars span:nth-child(27) { width: 2.3px; height: 2.3px; top: 29%;  left: 45%;  animation-delay: 1.6s; }
+.stars span:nth-child(28) { width: 1.9px; height: 1.9px; top: 53%;  left: 78%;  animation-delay: 1.1s; }
+.stars span:nth-child(29) { width: 1.1px; height: 1.1px; top: 47%;  left: 42%;  animation-delay: 1.4s; }
+.stars span:nth-child(30) { width: 1.6px; height: 1.6px; top: 90%;  left: 60%;  animation-delay: 2.6s; }
+
+/* Twinkle animation */
+@keyframes twinkle {
+  0%, 100% { opacity: 0.3; }
+  50% { opacity: 1; }
+}
+
 /* Signup Container */
 .signup-container {
-    background: rgba(255, 255, 255, 0.9);
-    padding: 2rem;
-    border-radius: 10px;
-    box-shadow: 0 4px 15px rgba(51, 24, 0, 0);
-    text-align: center;
+  background: rgba(20, 23, 32, 0.97);
+  padding: 2.5rem 2rem 2.2rem 2rem;
+  border-radius: 15px;
+  box-shadow: 0 6px 30px 0 #0008;
+  text-align: center;
+  min-width: 320px;
+  max-width: 400px;
+  width: 100%;
+  backdrop-filter: blur(4px) saturate(1.2);
+  border: 1px solid #23263a;
+  position: relative;
+  z-index: 10;
+}
+
+/* Heading */
+.signup-container h1 {
+  color: #7bb8fa;
+  font-weight: 700;
+  margin-bottom: 1.8rem;
+  letter-spacing: 1px;
+  font-size: 1.5rem;
+}
+input[type="text"],
+input[type="email"],
+  input[type="password"] {
     width: 100%;
-    max-width: 400px;
-  }
-  .logo img {
-    width: 80px;
+    padding: 0.6rem 0.7rem;
+    border: 1.5px solid #313958;
+    border-radius: 6px;
+    background: #252c40;
+    color: #f3f5f8;
     margin-bottom: 1rem;
-  }
-  .logo h1 {
-    font-size: 1.5rem;
-    color: #333;
-    margin-bottom: 1.5rem;
-  }
-  /* Input Fields */
-  .input-group {
-    margin-bottom: 1rem;
-    text-align: left;
-  }
-  
-  .input-group label {
-    display: block;
-    margin-bottom: 0.5rem;
-    color: #555;
-  }
-  
-  .input-group input {
-    width: 100%;
-    padding: 0.75rem;
-    border: 1px solid #ddd;
-    border-radius: 5px;
-    font-size: 1rem;
+    font-size: 0.85rem;
     outline: none;
-    transition: border-color 0.3s ease;
-  }
-  
-  .input-group input:focus {
-    border-color: #007bff;
+    transition: border-color 0.3s;
   }
 
-  .login{
-    text-decoration: none;
-    color: whitesmoke;
+  input[type="text"]:focus,
+  input[type="email"]:focus,
+  input[type="password"]:focus {
+    border-color: #66aaff;
+    background: #23263a;
   }
-  .loading-spinner {
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    width: 50px;
-    height: 50px;
-    border: 5px solid #f3f3f3;
-    border-top: 5px solid black;
-    border-radius: 50%;
-    animation: spin 1s linear infinite;
-    transform: translate(-50%, -50%);
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); }
-}
-  
-  /* Signup Button */
-  button {
+
+  ::placeholder {
+    color: #b8c3d2;
+    font-size: 0.8rem;
+  }
+
+button, .google-btn {
     width: 100%;
-    padding: 0.75rem;
-    background: #007bff;
-    color: white;
+    padding: 0.6rem 0;
+    background: linear-gradient(100deg, #3255a3 30%, #1d90f2 100%);
+    color: #fff;
     border: none;
-    border-radius: 5px;
-    font-size: 1rem;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.4px;
     cursor: pointer;
-    transition: background 0.3s ease;
+    margin-bottom: 0.7rem;
+    transition: background 0.25s, transform 0.1s;
+    box-shadow: 0 4px 12px -6px #007bff98;
   }
-  
-  button:hover {
-    background: #0056b3;
+
+  button:hover, .google-btn:hover {
+    background: linear-gradient(100deg, #4485ff 10%, #1756b3 100%);
+    transform: translateY(-2px) scale(1.03);
+    box-shadow: 0 8px 22px -3px #27a8ff55;
   }
-  
-  /* Login Link */
-  .login-link {
-    margin-top: 1rem;
+
+  .google-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    background: #fff;
     color: #555;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
   }
-  
-  .login-link a {
-    color: #007bff;
-    text-decoration: none;
+
+  .google-icon {
+    width: 16px;
+    height: 16px;
   }
-  
-  .login-link a:hover {
-    text-decoration: underline;
+
+
+/* Login link */
+.signup-container p {
+  margin-top: 1.4rem;
+  color: #b5c6e7;
+  font-size: 1rem;
+}
+
+.signup-container a {
+  color: #66aaff;
+  text-decoration: underline;
+  font-weight: 600;
+}
+
+.signup-container a:hover {
+  text-decoration: underline  #67aeff78 1.5px;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  top: 6%;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(120deg, rgba(28,32,48,0.95) 90%, rgba(51,62,92,0.90));
+  padding: 19px 33px;
+  border: 2px solid #4884f3;
+  color: #e4eaff;
+  box-shadow: 0 6px 30px #2272ff48;
+  border-radius: 7px;
+  z-index: 999;
+  font-size: 1.14rem;
+  transition: opacity 0.35s, top 0.35s;
+}
+.modal.hidden {
+  opacity: 0;
+  pointer-events: none;
+  top: 1%;
+}
+.modal-content {
+  font-weight: 500;
+}
+
+/* Responsive */
+@media (max-width: 500px) {
+  .signup-container {
+    padding: 1.2rem 0.6rem;
+    min-width: unset;
   }
+}

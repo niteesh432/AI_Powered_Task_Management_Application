@@ -2,32 +2,52 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Sign up - AI Task Manager</title>
-  <link rel="stylesheet" href="sign_up.css">
+  <link rel="stylesheet" href="sign_up.css" />
 </head>
 <body>
+
+  <!-- Animated background containers -->
+  <div class="animated-bg"></div>
+  <div class="stars">
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+    <span></span><span></span><span></span><span></span><span></span><span></span>
+  </div>
+
   <div class="signup-container">
     <h1>AI Task Manager - Sign Up</h1>
     <form id="signup-form">
-      <input type="text" id="name" placeholder="Full Name" required><br>
-      <input type="email" id="email" placeholder="Email" required><br>
-      <input type="password" id="password" placeholder="Password" required><br>
-      <input type="password" id="confirm-password" placeholder="Confirm Password" required><br>
+      <input type="text" id="name" placeholder="Full Name" required /><br />
+      <input type="email" id="email" placeholder="Email" required /><br />
+      <input type="password" id="password" placeholder="Password" required /><br />
+      <input type="password" id="confirm-password" placeholder="Confirm Password" required /><br />
       <button type="submit">Sign Up</button>
-      <button id="google-signup">Sign up with Google</button>
+      <button type="button" id="google-signup" class="google-btn" aria-label="Sign up with Google">
+        <svg class="google-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" fill="none" width="18" height="18">
+          <path fill="#4285F4" d="M24 9.5c3.54 0 6.69 1.36 9.07 3.57l6.77-6.77C34.75 2.88 29.75 1 24 1 14.95 1 7.03 6.85 3.76 14.92l7.89 6.14C13.97 15.12 18.52 9.5 24 9.5z"/>
+          <path fill="#34A853" d="M46.43 24.02c0-1.64-.15-3.22-.43-4.73H24v9.05h12.5c-.54 2.92-2.3 5.41-5.06 7.01v5.81h8.19c4.78-4.41 7.6-10.9 7.6-17.14z"/>
+          <path fill="#FBBC05" d="M11.65 28.3c-.4-1.18-.63-2.44-.63-3.76 0-1.32.23-2.59.63-3.76v-5.82H3.75a22.234 22.234 0 0 0 0 19.28l7.9-5.74z"/>
+          <path fill="#EA4335" d="M24 46.5c6.48 0 11.94-2.14 15.92-5.8l-7.68-5.76c-2.18 1.47-5 2.32-8.24 2.32-5.49 0-10.08-3.5-11.74-8.14H3.75v5.13C7.03 41.15 14.95 46.5 24 46.5z"/>
+        </svg>
+        Sign up with Google
+      </button>
     </form>
     <p>Already have an account? <a href="sign_in.html">Login</a></p>
 
     <!-- Modal -->
     <div id="modal" class="modal hidden">
-      <div class="modal-content" id="modal-content"></div>
+      <div id="modal-content" class="modal-content"></div>
     </div>
   </div>
 
   <!-- Firebase SDK -->
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-app-compat.js"></script>
   <script src="https://www.gstatic.com/firebasejs/10.12.2/firebase-auth-compat.js"></script>
+
   <script>
     const firebaseConfig = {
       apiKey: "AIzaSyD6XKpF5wc0QEFnz0ZeW2ZHlSSz39WxDFk",
@@ -38,25 +58,8 @@
       appId: "1:1057640651107:web:32de5b3c52cc90c9401b56",
       measurementId: "G-G8X2T7XBWH"
     };
-    firebase.initializeApp(firebaseConfig); 
+    firebase.initializeApp(firebaseConfig);
   </script>
-  <script>
-  document.getElementById("google-signup")?.addEventListener("click", async () => {
-    const provider = new firebase.auth.GoogleAuthProvider();
-    try {
-      const result = await firebase.auth().signInWithPopup(provider);
-      await result.user.updateProfile({ displayName: result.user.displayName || "New User" });
-      showModal("Google signup successful!");
-
-      // Optional: redirect after delay
-      setTimeout(() => {
-        window.location.href = "dashboard.html"; // or wherever your app lands
-      }, 1500);
-    } catch (err) {
-      showModal("Google signup error: " + err.message);
-    }
-  });
-</script>
 
   <script>
     const modal = document.getElementById("modal");
@@ -70,12 +73,15 @@
 
     document.getElementById("signup-form").addEventListener("submit", async (e) => {
       e.preventDefault();
-      const name = document.getElementById("name").value;
-      const email = document.getElementById("email").value;
+      const name = document.getElementById("name").value.trim();
+      const email = document.getElementById("email").value.trim();
       const password = document.getElementById("password").value;
       const confirm = document.getElementById("confirm-password").value;
 
-      if (password !== confirm) return showModal("Passwords do not match!");
+      if (password !== confirm) {
+        showModal("Passwords do not match!");
+        return;
+      }
 
       try {
         const result = await firebase.auth().createUserWithEmailAndPassword(email, password);
@@ -86,41 +92,49 @@
         showModal("Error: " + err.message);
       }
     });
+
+    document.getElementById("google-signup").addEventListener("click", async () => {
+      const provider = new firebase.auth.GoogleAuthProvider();
+      try {
+        const result = await firebase.auth().signInWithPopup(provider);
+        await result.user.updateProfile({ displayName: result.user.displayName || "New User" });
+        showModal("Google signup successful!");
+        setTimeout(() => {
+          window.location.href = "index2.html";
+        }, 1500);
+      } catch (err) {
+        showModal("Google signup error: " + err.message);
+      }
+    });
   </script>
+
   <style>
+    /* Modal styles */
     .modal {
       position: fixed;
       top: 20px;
       left: 50%;
       transform: translateX(-50%);
-      background: #eee;
-      padding: 20px;
-      border: 1px solid #333;
-      z-index: 100;
-      border-radius: 5px;
+      background: linear-gradient(120deg, rgba(28,32,48,0.95) 90%, rgba(51,62,92,0.90));
+      padding: 20px 30px;
+      border: 2px solid #4884f3;
+      color: #e4eaff;
+      box-shadow: 0 6px 30px #2272ff48;
+      border-radius: 7px;
+      z-index: 1000;
+      font-size: 1.14rem;
+      transition: opacity 0.35s, top 0.35s;
+      user-select: none;
     }
-    .hidden { display: none; }
+    .modal.hidden {
+      opacity: 0;
+      pointer-events: none;
+      top: 1%;
+    }
+    .modal-content {
+      font-weight: 500;
+    }
   </style>
-  <div id="modal" class="modal hidden">
-  <div id="modal-content" class="modal-content"></div>
-</div>
 
-<style>
-  .modal {
-    position: fixed;
-    top: 20px;
-    left: 50%;
-    transform: translateX(-50%);
-    background: #fff;
-    padding: 20px;
-    border: 1px solid #aaa;
-    box-shadow: 0 0 10px rgba(0,0,0,0.3);
-    z-index: 1000;
-    border-radius: 5px;
-  }
-  .hidden {
-    display: none;
-  }
-</style>
 </body>
 </html>
