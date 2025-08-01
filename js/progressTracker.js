@@ -2,44 +2,84 @@
 let progressChart;
 
 const initializeChart = () => {
-    const ctx = document.getElementById('progress-chart').getContext('2d');
-    progressChart = new Chart(ctx, {
-        type: 'bar',
-        data: {
-            labels: [], // Labels will update dynamically
-            datasets: [{
-                label: 'No. of Tasks Completed',
-                data: [],
-                backgroundColor: 'rgba(75, 192, 192, 0.2)',
-                borderColor: 'rgba(75, 192, 192, 1)',
-                borderWidth: 1
-            }]
-        },
-        options: {
-          plugins: {
-              legend: {
-                  labels: {
-                      color: '#1b263b', // Change text color
-                      font: {
-                          size: 16 // Change font size
-                      },
-                      boxWidth: 0, // Change size of the legend box
-                      boxHeight: 0 // Change height of the legend box
-                  },
-                  position: 'top' // Move the legend to the bottom
-              }
-          },
-          scales: {
-              y: {
-                  beginAtZero: true,
-              }
-          }
-      }
-      
-    });
-};
+  const ctx = document.getElementById('progress-chart').getContext('2d');
 
-initializeChart();
+  progressChart = new Chart(ctx, {
+    type: 'bar',
+    data: {
+      labels: [], // Weekdays or dynamic labels
+      datasets: [{
+        label: 'Tasks Completed',
+        data: [],
+        backgroundColor: 'rgba(173, 216, 230, 0.5)', // Light blue with transparency
+        borderColor: 'rgba(173, 216, 230, 1)', // Brighter blue border
+        borderWidth: 1,
+        borderRadius: 4, // Rounded bars
+        barPercentage: 0.7
+      }]
+    },
+    options: {
+      responsive: true,
+      animation: {
+        duration: 1000,
+        easing: 'easeOutQuart'
+      },
+      plugins: {
+        legend: {
+          display: true,
+          position: 'top',
+          labels: {
+            color: '#ffffff',
+            font: {
+              size: 14,
+              family: 'Inter Tight'
+            },
+            boxWidth: 12,
+            boxHeight: 12
+          }
+        },
+        tooltip: {
+          backgroundColor: '#1e1e2f',
+          titleColor: '#ffffff',
+          bodyColor: '#cceeff',
+          borderColor: '#cceeff',
+          borderWidth: 1,
+        }
+      },
+      scales: {
+        x: {
+          ticks: {
+            color: '#ffffff',
+            font: {
+              size: 12
+            }
+          },
+          grid: {
+            color: 'rgba(255, 255, 255, 0.1)'
+          }
+        },
+        y: {
+          beginAtZero: true,
+          ticks: {
+            color: '#ffffff',
+            font: {
+              size: 12
+            },
+            stepSize: 1
+          },
+          grid: {
+            color: 'rgba(255, 255, 255, 0.1)'
+          }
+        }
+      }
+    }
+  });
+};
+// Initialize the chart when the document is ready
+document.addEventListener('DOMContentLoaded', () => {
+  initializeChart(); // Call the function to initialize the chart
+  updateChart(); // Update the chart with initial data
+});
 
 // Formatting Dates Using Flatpickr
 flatpickr.formatDate = (date, format) => {

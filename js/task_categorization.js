@@ -12,6 +12,25 @@ async function logCategorizationCSV()
 }
 logCategorizationCSV(); */
 
+function showEmptyMessage(containerId, iconClass, message) {
+  const container = document.getElementById(containerId);
+  if (!container || container.children.length > 0) return;
+
+  const messageBox = document.createElement("div");
+  messageBox.className = "empty-message-box text-center my-3";
+
+  messageBox.innerHTML = `
+    <div class="text-secondary d-flex flex-column align-items-center justify-content-center p-4">
+      <i class="${iconClass}" style="font-size: 2.75rem; color: #90caf9; margin-bottom: 1rem;"></i>
+      <p class="empty-message-text">${message}</p>
+    </div>
+  `;
+
+  container.appendChild(messageBox);
+}
+
+
+
 function tokenizeTextFormats(text) {
     if (typeof text !== 'string') {
       throw new TypeError('Expected a string');
@@ -383,6 +402,8 @@ function extractCategorizationKeywords(description) {
     localStorage.setItem('categorizedTasks', JSON.stringify(categorizedTasks));
     /* console.log('Categorized tasks saved to local storage:', categorizedTasks); */
     await displayCategorizedTasks();
+    showEmptyMessage('smart-categorization-container', 'fas fa-tags', 'No categorized tasks found. Add a task to categorize!');
+    
   }
   saveTaskCategories();
   async function displayCategorizedTasks() {
@@ -398,41 +419,56 @@ function extractCategorizationKeywords(description) {
     smartCategorization.innerHTML = '';
     
     categorizedTasksSorting.forEach(({ task, category }) => {
-      if(task.trim()===" ") return;
-      const categoryItem = document.createElement('div');
-      categoryItem.className = 'input-group category-item';
-      const categoryTask = document.createElement('input');
-      categoryTask.disabled = true;
-      categoryTask.type = 'text';
-      categoryTask.value = task;
-      categoryTask.className = 'form-control category-description mb-3';
-      categoryTask.style.width = '60%';
-      categoryTask.style.backgroundColor = '#dee2ff';
-      categoryItem.appendChild(categoryTask);
-      const categoryElement = document.createElement('input');
-      categoryElement.disabled = true;
-      categoryElement.type = 'text';
-      categoryElement.value = category;
-      categoryElement.className = 'form-control category-text mb-3';
-      categoryElement.style.fontWeight = 'bold'; 
-      if(category === 'Personal') {
-        categoryElement.style.backgroundColor = '#e9edc9';
-      }
-      else if(category === 'Work') {
-        categoryElement.style.backgroundColor = '#ffccd5';
-      }
-      else if(category === 'Education') {
-        categoryElement.style.backgroundColor = '#d8e2dc';
-      }
-      else if(category === 'Health') {
-        categoryElement.style.backgroundColor = '#bee9e8';
-      }
-      else if(category === 'Household') {
-        categoryElement.style.backgroundColor = '#e0fbfc';
-      }
-      categoryItem.appendChild(categoryElement);
-      smartCategorization.appendChild(categoryItem);
-    });
+  if (task.trim() === "") return;
+
+  const categoryItem = document.createElement('div');
+  categoryItem.className = 'input-group category-item';
+
+  const categoryTask = document.createElement('input');
+  categoryTask.disabled = true;
+  categoryTask.type = 'text';
+  categoryTask.value = task;
+  categoryTask.className = 'form-control category-description mb-3';
+  categoryTask.style.width = '65%'; // Slightly increased width for better layout
+  categoryItem.appendChild(categoryTask);
+
+  const categoryElement = document.createElement('input');
+  categoryElement.setAttribute("data-category", category);
+  categoryElement.disabled = true;
+  categoryElement.type = 'text';
+  categoryElement.value = category;
+  categoryElement.className = 'form-control category-text mb-3';
+  categoryElement.style.fontWeight = 'bold';
+  if (category === 'Personal') {
+    categoryElement.style.backgroundColor = 'rgba(255, 165, 0, 0.15)'; // Dark orange tint
+    categoryElement.style.borderLeft = '4px solid #ffa500';
+    categoryElement.style.color = '#ffa500';
+  } else if (category === 'Work') {
+    categoryElement.style.backgroundColor = 'rgba(255, 99, 132, 0.15)'; // Rose pink
+    categoryElement.style.borderLeft = '4px solid #ff6384';
+    categoryElement.style.color = '#ff6384';
+  } else if (category === 'Education') {
+    categoryElement.style.backgroundColor = 'rgba(54, 162, 235, 0.15)'; // Soft blue
+    categoryElement.style.borderLeft = '4px solid #36a2eb';
+    categoryElement.style.color = '#36a2eb';
+  } else if (category === 'Health') {
+    categoryElement.style.backgroundColor = 'rgba(75, 192, 192, 0.15)'; // Teal
+    categoryElement.style.borderLeft = '4px solid #4bc0c0';
+    categoryElement.style.color = '#4bc0c0';
+  } else if (category === 'Household') {
+    categoryElement.style.backgroundColor = 'rgba(153, 102, 255, 0.15)'; // Lavender purple
+    categoryElement.style.borderLeft = '4px solid #9966ff';
+    categoryElement.style.color = '#9966ff';
+  } else {
+    categoryElement.style.backgroundColor = 'rgba(255, 255, 255, 0.1)'; // Default fallback
+    categoryElement.style.borderLeft = '4px solid #ccc';
+    categoryElement.style.color = '#ccc';
+  }
+
+  categoryItem.appendChild(categoryElement);
+  smartCategorization.appendChild(categoryItem);
+});
+
   const categoryElements = document.querySelectorAll('.category-item')
   /* console.log(categoryElements) */
   const today = new Date();
@@ -478,6 +514,7 @@ function extractCategorizationKeywords(description) {
     }
   });
   }
+  
   /* displayCategorizedTasks(); */
   
 

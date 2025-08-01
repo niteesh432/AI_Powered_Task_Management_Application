@@ -13,6 +13,24 @@ async function logDataset() {
   console.log(records);
 }
 logDataset(); */
+function showEmptyMessage(containerId, iconClass, message) {
+  const container = document.getElementById(containerId);
+  if (!container || container.children.length > 0) return;
+
+  const messageBox = document.createElement("div");
+  messageBox.className = "empty-message-box text-center my-3";
+
+  messageBox.innerHTML = `
+    <div class="text-secondary d-flex flex-column align-items-center justify-content-center p-4">
+      <i class="${iconClass}" style="font-size: 2.75rem; color: #90caf9; margin-bottom: 1rem;"></i>
+      <p class="empty-message-text">${message}</p>
+    </div>
+  `;
+
+  container.appendChild(messageBox);
+}
+
+
 
 // Improved text tokenization with punctuation removal and stemming placeholder
 function tokenizeText(text) {
@@ -430,6 +448,7 @@ async function savePriorityToLocalStorage() {
   localStorage.setItem('prioritizedTasks', JSON.stringify(prioritizedTasks));
   /* console.log('Prioritized tasks saved to local storage:', prioritizedTasks); */
   await displayTaskList();
+  showEmptyMessage('smart-remainders-container', 'fas fa-bell-slash', 'You have no urgent reminders. Stay relaxed!');
 }
 savePriorityToLocalStorage();
 

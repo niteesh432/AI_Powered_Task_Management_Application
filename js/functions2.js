@@ -5,6 +5,24 @@ const taskInput = document.getElementById('floatingInput');
 const taskListContainer = document.getElementById('task-list-container');
 let selectedDate = '';
 
+function showEmptyMessage(containerId, iconClass, message) {
+  const container = document.getElementById(containerId);
+  if (!container || container.children.length > 0) return;
+
+  const messageBox = document.createElement("div");
+  messageBox.className = "empty-message-box text-center my-3";
+
+  messageBox.innerHTML = `
+    <div class="text-secondary d-flex flex-column align-items-center justify-content-center p-4">
+      <i class="${iconClass}" style="font-size: 2.75rem; color: #90caf9; margin-bottom: 1rem;"></i>
+      <p class="empty-message-text">${message}</p>
+    </div>
+  `;
+
+  container.appendChild(messageBox);
+}
+
+
 const appendAlert = (message, type) => {
   const wrapper = document.createElement('div');
   wrapper.innerHTML = [
@@ -239,9 +257,10 @@ const renderTasks = () => {
 };
 
 // Initialize flatpickr on the date button
-flatpickr(".date-button", {
+flatpickr(".date-button", {                     // Show pretty date to user
   dateFormat: "d M", // Display format as 30 OCT
   minDate: "today", // Freeze dates before today
+  theme: "dark",
   onChange: function(selectedDates, dateStr, instance) {
     // Update the hidden input with the selected date in desired format
     document.getElementById("task-date").value = dateStr;
@@ -465,6 +484,7 @@ document.addEventListener('DOMContentLoaded', () => {
   completeOrder();
   reOrderTasks();
   scheduleWeeklyCleanup();
+  showEmptyMessage('task-list-container', 'fas fa-tasks', 'No tasks yet! Add something to get started.');
 });
 window.onload = dateHighlighlighting;
 
